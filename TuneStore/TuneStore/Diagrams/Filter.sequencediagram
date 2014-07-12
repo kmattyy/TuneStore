@@ -1,0 +1,1245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="6f48cd1c-e6c0-4cd6-ae7d-55e0b39c77e9" name="MainFrame_filterButton_Click" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="371ef951-57e7-4ab3-b3fa-7dfbe35c2acf" name="MainFrame_filterButton_Click" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="aa6982fe-f717-4da3-bf9d-a59e08b8684f" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="bffeafed-b488-4e4d-a504-623bd41bc93e" LastKnownName="this : MainFrame" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="3d6bd44f-2ad4-41ef-a09d-e43fd608a088" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="ec5dcb43-3e5c-4ef6-9dec-ec3e4f47e281" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="eab32c13-6a4f-4e32-b212-3df3c6b79755" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="203d3622-9302-4934-b9da-0eacafd0afde" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f61dde51-b658-4bfd-8719-6106593a9600" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="ec5dcb43-3e5c-4ef6-9dec-ec3e4f47e281" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="838ee7d0-6b17-4758-9374-ceb410076b6d" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bffeafed-b488-4e4d-a504-623bd41bc93e" LastKnownName="this : MainFrame" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="f97f3bde-70b1-48e2-976f-5ab8fd7f60de" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="eab32c13-6a4f-4e32-b212-3df3c6b79755" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bffeafed-b488-4e4d-a504-623bd41bc93e" LastKnownName="this : MainFrame" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="05bc6085-0946-44a4-8d58-dbf3ad4d56e7" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="99f94391-e392-4541-b569-6701cb24542e" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="7125199b-fc69-4e25-a758-fba7fa022dfd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e92157d2-f292-4c33-ad5c-63490c7a64fd" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="6ff47637-b6cf-41cc-99b1-2f27b194f592" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="3bd21c60-922f-4cea-b295-d9345308c87f" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="90111656-5699-4c8a-9d4f-170d1703d1c4" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="9c7e19ec-d86a-4222-b666-8d7fd99f208b" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="c6bb4c68-4a14-409e-9fce-4950fb069251" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="07d077df-2eb5-4c48-8bbb-bb932370cab1" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e8ca7f0f-c9f9-46ee-8012-fff2da782d77" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="7125199b-fc69-4e25-a758-fba7fa022dfd" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="3978eacb-2597-47b3-8d7b-6debb30cb0b1" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="203d3622-9302-4934-b9da-0eacafd0afde" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bffeafed-b488-4e4d-a504-623bd41bc93e" LastKnownName="this : MainFrame" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e92157d2-f292-4c33-ad5c-63490c7a64fd" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="0768708c-62d0-49e2-be19-bce6671f2508" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="79050b5d-f068-4a25-9cc1-d22429673ce1" LastKnownName="Tracks" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="50cfcec6-cfa9-4006-a249-cf0184b6d04d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="38a9b758-feb1-4843-90c4-d36288e9e5a4" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="72a0f109-81ad-4b26-bb61-23645bd3b2e7" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="3f1b1649-d56b-4d6a-8613-172e5c448c8b" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="38a9b758-feb1-4843-90c4-d36288e9e5a4" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="1e814cf9-a036-4903-986f-455f59339e81" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="79050b5d-f068-4a25-9cc1-d22429673ce1" LastKnownName="Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="72a0f109-81ad-4b26-bb61-23645bd3b2e7" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="79050b5d-f068-4a25-9cc1-d22429673ce1" LastKnownName="Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6ff47637-b6cf-41cc-99b1-2f27b194f592" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3f1b1649-d56b-4d6a-8613-172e5c448c8b" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="79050b5d-f068-4a25-9cc1-d22429673ce1" LastKnownName="Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3bd21c60-922f-4cea-b295-d9345308c87f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="50cfcec6-cfa9-4006-a249-cf0184b6d04d" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="9eeff49b-06ac-44ac-a22d-3251cdeb75af" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="79050b5d-f068-4a25-9cc1-d22429673ce1" LastKnownName="Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="50b9b7d1-38d7-4cd4-a791-72f140dc7027" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="b826fd46-c10d-409d-9e66-ac56d73dd60c" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="af2c45f9-2908-466d-9132-f903b11c63a9" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="f1678f61-db3f-4a17-a87f-44f193206bcd" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="9affc669-bdcd-4f51-be7f-125939ff024f" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="81cbcce4-7a6a-40d9-ab13-1eacddadca7e" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="60a61d14-2055-45b7-afd2-2cb9fb04e696" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="252c1ff0-0fa2-4e74-8599-7a0879e793b5" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="eecc45ee-b03d-47c1-b241-a6f84bea5643" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="4588dfa7-28b9-45d3-b03e-bdf63a010aac" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="78ad1dc9-1117-414d-b965-d007c270157e" LastKnownName="ExecutionOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="2b2942e1-e98c-40c0-b5d6-9c6000c73cb6" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="88a18572-9184-49ce-be08-5f432d20a1ca" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="b3324047-2809-42ef-a70b-97e559676ee6" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="83c776cc-ba83-44b8-9c73-7e2fcbcacb38" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="5c9d15de-f71e-4e29-ba36-c1909e88a38f" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="d4d2daac-4407-483d-ac0c-55d444eccac7" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="fa3e63de-b35e-4d77-b711-2fcf17aedf6d" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="af2c45f9-2908-466d-9132-f903b11c63a9" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="9718747e-e087-42dc-8a19-26ea5a5a9760" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="90111656-5699-4c8a-9d4f-170d1703d1c4" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f1678f61-db3f-4a17-a87f-44f193206bcd" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="9affc669-bdcd-4f51-be7f-125939ff024f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="5b7700ed-3954-443e-87ff-3a5ece62aab8" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="60a61d14-2055-45b7-afd2-2cb9fb04e696" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="81cbcce4-7a6a-40d9-ab13-1eacddadca7e" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="ca30debb-1d86-4a2c-a754-9cba6ee1c672" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="1f129d2b-f860-411e-9bee-b88aff6b1946" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="8730df51-d145-408f-9d1d-e1205e10d036" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="bdf235f1-7324-4928-9c9d-36552a929c0c" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="88b3cb1a-1eb1-4781-a764-e812b9ff350e" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="849f2b37-070f-4396-ad01-dc50e5ffbafb" LastKnownName="ExecutionOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="ed55e144-5e80-435a-bb64-e83d68b049dd" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="44d73bd9-9b03-478b-a691-d646c75dbb74" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="09bbd17c-b5c0-4406-9ca5-23bcf1fde5b4" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="7957a888-649a-4d5a-b653-a587c7f69747" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="1e4a61a5-e601-4df8-8039-f26632dce43e" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="b902ce93-03e9-4db2-8272-c9054a2046db" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="5c911e3c-cccc-4fb4-939a-39441e3bf56c" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="c7be6674-10d4-457e-b8e0-65518c2356d5" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="a8e36b51-94e1-4296-b590-561ff760b375" LastKnownName="OperandOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="81cbcce4-7a6a-40d9-ab13-1eacddadca7e" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="95a9799d-e658-405e-ae58-29475beaf169" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ca30debb-1d86-4a2c-a754-9cba6ee1c672" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment Id="a7ddb078-e87a-4af4-ab04-a6868d851304" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="If">
+            <coveredLifelines>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="ffd6dd38-7b70-48bc-b266-3c55e79b37d4" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                </coveredLifelines>
+                <fragments>
+                  <combinedFragment Id="f9ec747a-f79a-4760-b361-8f74823b0561" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="Try">
+                    <coveredLifelines>
+                      <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand Id="34783837-809d-4da0-9839-54b6be4fb068" name="InteractionOperand1">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                        </coveredLifelines>
+                        <fragments>
+                          <combinedFragment Id="8f0e96b6-e39e-4c7e-8297-01a3b5dc895a" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="If">
+                            <coveredLifelines>
+                              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                            </coveredLifelines>
+                            <operands>
+                              <interactionOperand Id="73add9f1-aa16-433a-8851-0198dbc3405a" name="InteractionOperand1">
+                                <coveredLifelines>
+                                  <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                                </coveredLifelines>
+                                <fragments>
+                                  <combinedFragment Id="d2240227-728e-4c42-9dec-99053603cc4d" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="Try">
+                                    <coveredLifelines>
+                                      <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                                    </coveredLifelines>
+                                    <operands>
+                                      <interactionOperand Id="42e5cf05-ddf3-426a-8c1d-4c2d4c78e25e" name="InteractionOperand1">
+                                        <coveredLifelines>
+                                          <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                                        </coveredLifelines>
+                                        <guard>
+                                          <interactionConstraint Id="11d8997e-c224-4602-ac9b-f885becaf317" guardText="try" />
+                                        </guard>
+                                        <operandOccurrenceSpecifications>
+                                          <operandOccurrenceSpecificationMoniker Id="b012bb1d-8f84-4a99-b8b8-4b079d822c6b" LastKnownName="OperandOccurrenceSpecification" />
+                                          <operandOccurrenceSpecificationMoniker Id="e4975ea0-a3bc-496b-be72-2d9a2cb9016e" LastKnownName="OperandOccurrenceSpecification" />
+                                        </operandOccurrenceSpecifications>
+                                      </interactionOperand>
+                                      <interactionOperand Id="af5d73a6-fc63-4d58-9614-f1a8edaa3a35" name="InteractionOperand2">
+                                        <coveredLifelines>
+                                          <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                                        </coveredLifelines>
+                                        <guard>
+                                          <interactionConstraint Id="ac45bdeb-4a66-46d7-99bf-73feb8aca3c3" guardText="catch" />
+                                        </guard>
+                                        <operandOccurrenceSpecifications>
+                                          <operandOccurrenceSpecificationMoniker Id="1d18b889-31b2-464b-9cd9-51f5face2436" LastKnownName="OperandOccurrenceSpecification" />
+                                          <operandOccurrenceSpecificationMoniker Id="01f1088b-f058-42e5-b2a7-7d08ebc935b6" LastKnownName="OperandOccurrenceSpecification" />
+                                        </operandOccurrenceSpecifications>
+                                      </interactionOperand>
+                                    </operands>
+                                  </combinedFragment>
+                                </fragments>
+                                <guard>
+                                  <interactionConstraint Id="37675f1b-7684-4254-a5f2-f0a2c10246dc" guardText="if (ConnectionCreated != true)" />
+                                </guard>
+                                <operandOccurrenceSpecifications>
+                                  <operandOccurrenceSpecificationMoniker Id="cbbe08b4-ae40-496b-93e3-75668e5ac62b" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="b40e6b95-3bd5-4ae0-90fd-bbd7bc898db3" LastKnownName="OperandOccurrenceSpecification" />
+                                </operandOccurrenceSpecifications>
+                              </interactionOperand>
+                              <interactionOperand Id="541f55cd-beb6-470a-9098-ec4f289891bb" name="InteractionOperand2">
+                                <coveredLifelines>
+                                  <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                                </coveredLifelines>
+                                <guard>
+                                  <interactionConstraint Id="4c84912e-f07d-4ddb-9905-3f0d73c482d9" guardText="else" />
+                                </guard>
+                                <operandOccurrenceSpecifications>
+                                  <operandOccurrenceSpecificationMoniker Id="59ff478f-e034-4964-9034-4ad8c1d3355d" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="c0f0dc32-9740-4d1e-993c-7f1ebec70739" LastKnownName="OperandOccurrenceSpecification" />
+                                </operandOccurrenceSpecifications>
+                              </interactionOperand>
+                            </operands>
+                          </combinedFragment>
+                        </fragments>
+                        <guard>
+                          <interactionConstraint Id="776b92d0-4297-4671-afce-2fd48cfe6781" guardText="try" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="8730df51-d145-408f-9d1d-e1205e10d036" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="44d73bd9-9b03-478b-a691-d646c75dbb74" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                      <interactionOperand Id="9a389338-3315-4c4c-aee5-9fea21f85302" name="InteractionOperand2">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="b4cb09e3-5c92-4d0b-9751-56e99071eeec" guardText="catch" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="09bbd17c-b5c0-4406-9ca5-23bcf1fde5b4" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="1e4a61a5-e601-4df8-8039-f26632dce43e" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                </fragments>
+                <guard>
+                  <interactionConstraint Id="82f9aad1-7351-4ee8-89f1-a6d1a186a964" guardText="if (Connected != true)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="1f129d2b-f860-411e-9bee-b88aff6b1946" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="b902ce93-03e9-4db2-8272-c9054a2046db" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="76857510-9d23-4db5-bfda-5d4e62efb5c8" name="InteractionOperand2">
+                <coveredLifelines>
+                  <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="788c95e0-2798-4785-b4ee-0845ac28daa3" guardText="else" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="5c911e3c-cccc-4fb4-939a-39441e3bf56c" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="a8e36b51-94e1-4296-b590-561ff760b375" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="1f129d2b-f860-411e-9bee-b88aff6b1946" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="8730df51-d145-408f-9d1d-e1205e10d036" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="bdf235f1-7324-4928-9c9d-36552a929c0c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="116c58b7-be94-43b7-9732-ba21f87d3bbb" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="849f2b37-070f-4396-ad01-dc50e5ffbafb" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="88b3cb1a-1eb1-4781-a764-e812b9ff350e" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="b44961cc-994d-45ab-b2d2-30d2e6fde80f" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="cbbe08b4-ae40-496b-93e3-75668e5ac62b" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="b012bb1d-8f84-4a99-b8b8-4b079d822c6b" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="ec847848-a42f-482e-a5e1-c1a6e1cc54ef" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="e4975ea0-a3bc-496b-be72-2d9a2cb9016e" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="1d18b889-31b2-464b-9cd9-51f5face2436" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="8e4b7f92-33a9-4823-9284-9a235b193c09" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="01f1088b-f058-42e5-b2a7-7d08ebc935b6" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="b40e6b95-3bd5-4ae0-90fd-bbd7bc898db3" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="59ff478f-e034-4964-9034-4ad8c1d3355d" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="70ec82b4-11c3-498d-9f1d-6ded020d5011" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c0f0dc32-9740-4d1e-993c-7f1ebec70739" LastKnownName="OperandOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="88b3cb1a-1eb1-4781-a764-e812b9ff350e" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e2f99b98-6e67-40ec-9d5e-b8191a9d73a5" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b44961cc-994d-45ab-b2d2-30d2e6fde80f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="cbbe08b4-ae40-496b-93e3-75668e5ac62b" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="b012bb1d-8f84-4a99-b8b8-4b079d822c6b" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ec847848-a42f-482e-a5e1-c1a6e1cc54ef" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="dd50d52e-5758-4c7b-9224-9fea81ea1de6" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="e4975ea0-a3bc-496b-be72-2d9a2cb9016e" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="1d18b889-31b2-464b-9cd9-51f5face2436" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8e4b7f92-33a9-4823-9284-9a235b193c09" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="a6a1e0b5-75d4-42e2-8a7f-3084d11f55fb" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="01f1088b-f058-42e5-b2a7-7d08ebc935b6" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="b40e6b95-3bd5-4ae0-90fd-bbd7bc898db3" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="59ff478f-e034-4964-9034-4ad8c1d3355d" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <lostFoundTarget Id="e8a9bacd-d5d3-4f4f-8777-00a9f5ad9b72" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="70ec82b4-11c3-498d-9f1d-6ded020d5011" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c0f0dc32-9740-4d1e-993c-7f1ebec70739" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="849f2b37-070f-4396-ad01-dc50e5ffbafb" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="c24588f9-dd23-4c1b-ab11-1c558f57ad5c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="c1d96399-3993-4cb1-b996-9dd14e9e94dd" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="ed55e144-5e80-435a-bb64-e83d68b049dd" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="44d73bd9-9b03-478b-a691-d646c75dbb74" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="09bbd17c-b5c0-4406-9ca5-23bcf1fde5b4" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <lostFoundTarget Id="69f74330-d55a-4ae9-b7f3-05d83393e829" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="7957a888-649a-4d5a-b653-a587c7f69747" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="1e4a61a5-e601-4df8-8039-f26632dce43e" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="b902ce93-03e9-4db2-8272-c9054a2046db" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="5c911e3c-cccc-4fb4-939a-39441e3bf56c" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c7be6674-10d4-457e-b8e0-65518c2356d5" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="adda5bd1-4b37-4c4f-91d6-8987f387893e" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="a8e36b51-94e1-4296-b590-561ff760b375" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="60a61d14-2055-45b7-afd2-2cb9fb04e696" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="38860757-3039-48ff-ba1d-929720795a0d" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <combinedFragment Id="3a0d669b-4560-4a58-8b7f-50c3dab9caef" name="CombinedFragment2" interactionOperator="Alt" customInteractionOperator="If">
+            <coveredLifelines>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="1a1a50e2-9bfd-41d0-85f3-52ff46bbb784" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                </coveredLifelines>
+                <fragments>
+                  <combinedFragment Id="efab7d00-059a-4529-b8e8-10ce769df80c" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="If">
+                    <coveredLifelines>
+                      <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand Id="600789cc-2e36-4c8d-af8d-5699c06d597a" name="InteractionOperand1">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                        </coveredLifelines>
+                        <fragments>
+                          <combinedFragment Id="42fe168e-f6e4-4753-814a-47389ebc74b9" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="Try">
+                            <coveredLifelines>
+                              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                            </coveredLifelines>
+                            <operands>
+                              <interactionOperand Id="dc6d69b6-1338-472d-96eb-a3fc0c967887" name="InteractionOperand1">
+                                <coveredLifelines>
+                                  <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                                </coveredLifelines>
+                                <guard>
+                                  <interactionConstraint Id="977c57bd-7738-4a5b-a2cc-a61be4e67096" guardText="try" />
+                                </guard>
+                                <operandOccurrenceSpecifications>
+                                  <operandOccurrenceSpecificationMoniker Id="d75c9e06-ffa0-4185-af69-742844e1aaba" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="07b67832-a3de-449b-bbee-791f56803c39" LastKnownName="OperandOccurrenceSpecification" />
+                                </operandOccurrenceSpecifications>
+                              </interactionOperand>
+                              <interactionOperand Id="476124de-736a-4c2a-b043-c484e968e6a3" name="InteractionOperand2">
+                                <coveredLifelines>
+                                  <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                                </coveredLifelines>
+                                <guard>
+                                  <interactionConstraint Id="be7607eb-4c44-4e53-8249-a2630d4a540c" guardText="catch" />
+                                </guard>
+                                <operandOccurrenceSpecifications>
+                                  <operandOccurrenceSpecificationMoniker Id="339e0624-924c-497d-88cf-b8eba22d5899" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="938b9e6d-f223-47c7-8830-871e7c447cc8" LastKnownName="OperandOccurrenceSpecification" />
+                                </operandOccurrenceSpecifications>
+                              </interactionOperand>
+                            </operands>
+                          </combinedFragment>
+                        </fragments>
+                        <guard>
+                          <interactionConstraint Id="a8b8e1e1-bfb8-4f55-b61c-39ccae84dee0" guardText="if (ConnectionCreated != true)" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="26ce14b2-a46f-4180-be5b-375f70b92527" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="e5495069-c4ec-413d-a389-e40753c43858" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                      <interactionOperand Id="b1257dc3-1a06-4546-a1f0-9382f75e1bfe" name="InteractionOperand2">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="42fb4fc3-1eeb-4038-bcc9-0f1046735744" guardText="else" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="44072c26-c504-4747-bb09-1ea62095fd7c" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="b69c6389-a986-439d-a3b7-c1742c3796f2" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                </fragments>
+                <guard>
+                  <interactionConstraint Id="978bb5a5-4d69-451e-8ec1-1de8bb27890e" guardText="if (this.OpenConnection())" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="252c1ff0-0fa2-4e74-8599-7a0879e793b5" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="83c776cc-ba83-44b8-9c73-7e2fcbcacb38" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="3f925ef3-0401-452c-8870-6af3765211a4" name="InteractionOperand2">
+                <coveredLifelines>
+                  <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="a5243455-abd6-48f0-8a17-0bcc287948dc" guardText="else" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="5c9d15de-f71e-4e29-ba36-c1909e88a38f" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="d4d2daac-4407-483d-ac0c-55d444eccac7" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="252c1ff0-0fa2-4e74-8599-7a0879e793b5" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="eecc45ee-b03d-47c1-b241-a6f84bea5643" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="0b5d9520-e7b3-49fb-a4dc-d0c86d967481" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="78ad1dc9-1117-414d-b965-d007c270157e" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="4588dfa7-28b9-45d3-b03e-bdf63a010aac" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="a7416609-2287-4412-8bff-5c454552c9d2" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="26ce14b2-a46f-4180-be5b-375f70b92527" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="d75c9e06-ffa0-4185-af69-742844e1aaba" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="549d4b9e-438d-47a2-8156-2f3a16634b07" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="07b67832-a3de-449b-bbee-791f56803c39" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="339e0624-924c-497d-88cf-b8eba22d5899" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f844afbc-a883-4efc-941e-c1fb30a0df9d" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="938b9e6d-f223-47c7-8830-871e7c447cc8" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="e5495069-c4ec-413d-a389-e40753c43858" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="44072c26-c504-4747-bb09-1ea62095fd7c" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="753000bf-6826-4c07-9db7-f8eb0246614a" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="b69c6389-a986-439d-a3b7-c1742c3796f2" LastKnownName="OperandOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="4588dfa7-28b9-45d3-b03e-bdf63a010aac" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="fe9ad928-2ad5-472d-a014-2931cba67da3" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a7416609-2287-4412-8bff-5c454552c9d2" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="26ce14b2-a46f-4180-be5b-375f70b92527" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="d75c9e06-ffa0-4185-af69-742844e1aaba" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <lostFoundTarget Id="d79868b8-bebf-4998-8a05-0e933228e6ef" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="549d4b9e-438d-47a2-8156-2f3a16634b07" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="07b67832-a3de-449b-bbee-791f56803c39" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="339e0624-924c-497d-88cf-b8eba22d5899" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f844afbc-a883-4efc-941e-c1fb30a0df9d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="6dab4374-36fe-470d-80da-94ea095aed28" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="938b9e6d-f223-47c7-8830-871e7c447cc8" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="e5495069-c4ec-413d-a389-e40753c43858" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="44072c26-c504-4747-bb09-1ea62095fd7c" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="753000bf-6826-4c07-9db7-f8eb0246614a" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="6a2b1422-721b-4768-9414-2ee2c2008ee5" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="b69c6389-a986-439d-a3b7-c1742c3796f2" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="78ad1dc9-1117-414d-b965-d007c270157e" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ac4c0dd1-6bd5-4932-8ea6-03a7045ea942" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="2b2942e1-e98c-40c0-b5d6-9c6000c73cb6" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="c4e5e883-4834-4442-a93a-c492b0b0cf6c" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="b3324047-2809-42ef-a70b-97e559676ee6" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="88a18572-9184-49ce-be08-5f432d20a1ca" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e88c5796-74e9-412e-ad15-8d7bbc9b5c00" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="88a18572-9184-49ce-be08-5f432d20a1ca" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="7fd5bb00-a8b7-4d2a-ad5c-7c0d245a48cf" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e88c5796-74e9-412e-ad15-8d7bbc9b5c00" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="b3324047-2809-42ef-a70b-97e559676ee6" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="f88463e2-5269-4197-b42f-4e12045377d8" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="83c776cc-ba83-44b8-9c73-7e2fcbcacb38" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="5c9d15de-f71e-4e29-ba36-c1909e88a38f" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="d4d2daac-4407-483d-ac0c-55d444eccac7" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="9c7e19ec-d86a-4222-b666-8d7fd99f208b" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="fa3e63de-b35e-4d77-b711-2fcf17aedf6d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="b826fd46-c10d-409d-9e66-ac56d73dd60c" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="b73080f6-1333-43d5-903a-744e24b502dc" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bec6e65b-1c5b-466c-a578-a0b8400de051" LastKnownName="this.myTracksController.myTracks : Tracks" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="59dd416e-a852-4e13-8dab-73ff877a964e" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="591ac802-59d9-497f-b9b0-56d8f50f06e2" LastKnownName="this.myTracksController.myViewFrame : MainFrame" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="0331e585-e621-4b16-823c-b9bf379ce8f9" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="90f055c6-de25-4b7a-96e7-f0205e0aef71" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="f8e8a54a-f194-4c70-ae02-fb904fffc419" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="6913f703-6bca-4245-ad9e-e8dec96fb72a" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="90f055c6-de25-4b7a-96e7-f0205e0aef71" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a8f8a35c-af60-4b16-948a-1a741f9b537c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="591ac802-59d9-497f-b9b0-56d8f50f06e2" LastKnownName="this.myTracksController.myViewFrame : MainFrame" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f8e8a54a-f194-4c70-ae02-fb904fffc419" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="591ac802-59d9-497f-b9b0-56d8f50f06e2" LastKnownName="this.myTracksController.myViewFrame : MainFrame" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c6bb4c68-4a14-409e-9fce-4950fb069251" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="07d077df-2eb5-4c48-8bbb-bb932370cab1" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6913f703-6bca-4245-ad9e-e8dec96fb72a" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="591ac802-59d9-497f-b9b0-56d8f50f06e2" LastKnownName="this.myTracksController.myViewFrame : MainFrame" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="0331e585-e621-4b16-823c-b9bf379ce8f9" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="d57d5578-8139-41fc-b8b4-83e60cfe5958" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="591ac802-59d9-497f-b9b0-56d8f50f06e2" LastKnownName="this.myTracksController.myViewFrame : MainFrame" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f61dde51-b658-4bfd-8719-6106593a9600" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bffeafed-b488-4e4d-a504-623bd41bc93e" LastKnownName="this : MainFrame" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e8ca7f0f-c9f9-46ee-8012-fff2da782d77" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="99f94391-e392-4541-b569-6701cb24542e" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="8f11e69c-99a8-4899-8842-3e2ead12845b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d347298f-349c-469c-a595-93aa74e2ad18" LastKnownName="this.myTracksController : TracksController" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="3d6bd44f-2ad4-41ef-a09d-e43fd608a088" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="7ba697e3-9b15-4036-a59b-dea24ad9f415" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bffeafed-b488-4e4d-a504-623bd41bc93e" LastKnownName="this : MainFrame" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="bffeafed-b488-4e4d-a504-623bd41bc93e" name="this : MainFrame" isActor="false" lifelineDisplayName="this : MainFrame" referencedInstance="(Assembly=$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri) Namespace=TuneStore Type=MainFrame ObjectInstance=&quot;Object instance 3&quot;)" referencedType="TuneStore‎.MainFrame">
+            <referencesInternal>
+              <reference Id="2358be0f-dabd-44b8-8126-7449d122be04" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore Type=MainFrame)&quot;)" tag="DGQL" />
+              <reference Id="2d2910db-6635-4d75-8347-4f20ba5e6b7b" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore Type=MainFrame)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="ec5dcb43-3e5c-4ef6-9dec-ec3e4f47e281" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="3d6bd44f-2ad4-41ef-a09d-e43fd608a088" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="d347298f-349c-469c-a595-93aa74e2ad18" name="this.myTracksController : TracksController" isActor="false" lifelineDisplayName="this.myTracksController : TracksController" referencedInstance="(Assembly=$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri) Namespace=TuneStore Type=MainFrame Member=myTracksController ObjectInstance=&quot;Object instance 4&quot;)" referencedType="TuneStore‎.Controller‎.TracksController">
+            <referencesInternal>
+              <reference Id="3a83af1f-dfc3-44e5-9315-27104b774dea" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Controller)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Controller Type=TracksController)&quot;)" tag="DGQL" />
+              <reference Id="0b27c707-9256-4152-b7f5-715084c19981" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Controller Type=TracksController)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="7125199b-fc69-4e25-a758-fba7fa022dfd" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="99f94391-e392-4541-b569-6701cb24542e" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="79050b5d-f068-4a25-9cc1-d22429673ce1" name="Tracks" isActor="false" lifelineDisplayName="Tracks" referencedType="TuneStore‎.Model‎.Tracks">
+            <referencesInternal>
+              <reference Id="4ae31d53-639a-42f2-a440-8c155b091128" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Model)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=Tracks)&quot;)" tag="DGQL" />
+              <reference Id="765b5696-dd3f-4b51-91be-a8d9324af10d" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Model Type=Tracks)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="38a9b758-feb1-4843-90c4-d36288e9e5a4" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="50cfcec6-cfa9-4006-a249-cf0184b6d04d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="bec6e65b-1c5b-466c-a578-a0b8400de051" name="this.myTracksController.myTracks : Tracks" isActor="false" lifelineDisplayName="this.myTracksController.myTracks : Tracks" referencedInstance="(Assembly=$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri) Namespace=TuneStore.Controller Type=TracksController Member=myTracks ObjectInstance=&quot;Object instance 41&quot;)" referencedType="TuneStore‎.Model‎.Tracks">
+            <referencesInternal>
+              <reference Id="c54f9a88-82c8-4507-a798-c5981cc59e3e" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Model)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=Tracks)&quot;)" tag="DGQL" />
+              <reference Id="1a241817-4dc9-41b2-8bdc-e82add9ce585" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Model Type=Tracks)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="af2c45f9-2908-466d-9132-f903b11c63a9" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="b826fd46-c10d-409d-9e66-ac56d73dd60c" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="591ac802-59d9-497f-b9b0-56d8f50f06e2" name="this.myTracksController.myViewFrame : MainFrame" isActor="false" lifelineDisplayName="this.myTracksController.myViewFrame : MainFrame" referencedInstance="(Assembly=$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri) Namespace=TuneStore.Controller Type=TracksController Member=myViewFrame ObjectInstance=&quot;Object instance 96&quot;)" referencedType="TuneStore‎.MainFrame">
+            <referencesInternal>
+              <reference Id="f1b76f89-9934-4f1f-aa1e-3c3ec6484569" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore Type=MainFrame)&quot;)" tag="DGQL" />
+              <reference Id="fc164a2b-660c-4e1b-8c09-1310874e7516" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore Type=MainFrame)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="90f055c6-de25-4b7a-96e7-f0205e0aef71" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="0331e585-e621-4b16-823c-b9bf379ce8f9" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="83d903a1-5b07-4580-a653-1dad6c76ba8d" name="filterButton_Click" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="87361794-dbe0-4cd4-ba76-1a72b4a19be6" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore Type=MainFrame)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore Type=MainFrame Member=(Name=filterButton_Click OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Object),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=EventArgs)]))&quot;)" tag="DGQL" />
+              <reference Id="5325189a-3191-4d99-af2a-5373f5d8afaf" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore Type=MainFrame Member=(Name=filterButton_Click OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=EventArgs)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="f97f3bde-70b1-48e2-976f-5ab8fd7f60de" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="eab32c13-6a4f-4e32-b212-3df3c6b79755" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="8aab2bbc-1c7c-4d01-a0ec-fe9e1eb66f74" name="setFilters" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="myTracksController.setFilters(artistBox.Text, albumBox.Text, titleBox.Text, genreBox.Text, keyBox.Text)">
+            <referencesInternal>
+              <reference Id="89d3295d-1614-421d-a2bb-918b58bcd5a2" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Controller)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Controller Type=TracksController)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Controller Type=TracksController Member=(Name=setFilters OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="e512efbb-fed8-4458-8cf8-fbd5543e0ddb" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Controller Type=TracksController Member=(Name=setFilters OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="203d3622-9302-4934-b9da-0eacafd0afde" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e92157d2-f292-4c33-ad5c-63490c7a64fd" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="3a6b5d9b-4fc8-40f8-90cb-6b730a5514ea" name="getFilterString" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="Tracks.getFilterString(artist, album, title, genre, key)">
+            <referencesInternal>
+              <reference Id="d41340a9-52db-4cb6-bf5e-2ac8d875c7e2" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Model)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=Tracks)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=Tracks Member=(Name=getFilterString OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="ab74b7fe-a0ba-4489-a1d6-9fa3292bd008" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Model Type=Tracks Member=(Name=getFilterString OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6ff47637-b6cf-41cc-99b1-2f27b194f592" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="72a0f109-81ad-4b26-bb61-23645bd3b2e7" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="9dc747ba-50f2-4db2-98f8-bfa550117390" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="3f1b1649-d56b-4d6a-8613-172e5c448c8b" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="3bd21c60-922f-4cea-b295-d9345308c87f" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="74e7f301-c580-40b4-91f5-6f004b3b4edc" name="getDataTable" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="myTracks.getDataTable(s)">
+            <referencesInternal>
+              <reference Id="a36deb88-cc4e-4d5b-b956-c45fe7d488b4" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Model)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=Tracks)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=Tracks Member=(Name=getDataTable OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="e32489ff-0dc9-4ea6-a939-a19b80186bbb" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Model Type=Tracks Member=(Name=getDataTable OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="90111656-5699-4c8a-9d4f-170d1703d1c4" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="f1678f61-db3f-4a17-a87f-44f193206bcd" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="48015906-5637-405c-8e1e-faea6e3dcb32" name="OpenConnection" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="this.OpenConnection()">
+            <referencesInternal>
+              <reference Id="46cba9df-b33f-44ed-9118-00b53156b5a9" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Model)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=DAL)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=DAL Member=OpenConnection)&quot;)" tag="DGQL" />
+              <reference Id="1c0c157e-bb6f-4b6b-944f-edfd53e8211e" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Model Type=DAL Member=OpenConnection)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="9affc669-bdcd-4f51-be7f-125939ff024f" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="ca30debb-1d86-4a2c-a754-9cba6ee1c672" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="f99c2220-3e70-4623-93b9-50aeddc9b1a2" name="CreateConnection" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="CreateConnection()">
+            <referencesInternal>
+              <reference Id="518acf50-d3ba-4b80-bbe6-d2a9e24af72d" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Model)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=DAL)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=DAL Member=CreateConnection)&quot;)" tag="DGQL" />
+              <reference Id="9d9e7395-e201-445a-85f8-113ed03eb224" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Model Type=DAL Member=CreateConnection)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="bdf235f1-7324-4928-9c9d-36552a929c0c" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="b44961cc-994d-45ab-b2d2-30d2e6fde80f" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="79d84a23-08a6-4990-b077-7e5f3ae777c9" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="ec847848-a42f-482e-a5e1-c1a6e1cc54ef" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="dd50d52e-5758-4c7b-9224-9fea81ea1de6" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="35e19c5c-a21f-4d62-bd7f-bb51d59494e0" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="8e4b7f92-33a9-4823-9284-9a235b193c09" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="a6a1e0b5-75d4-42e2-8a7f-3084d11f55fb" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="b0855b9c-9b31-44fe-9800-f9f58b925576" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="70ec82b4-11c3-498d-9f1d-6ded020d5011" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="e8a9bacd-d5d3-4f4f-8777-00a9f5ad9b72" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="f5bb9314-f90e-4515-9036-2e4c5458d651" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="ed55e144-5e80-435a-bb64-e83d68b049dd" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="c1d96399-3993-4cb1-b996-9dd14e9e94dd" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="c0b12ee0-7014-417b-ac15-842d280c0bac" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="7957a888-649a-4d5a-b653-a587c7f69747" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="69f74330-d55a-4ae9-b7f3-05d83393e829" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="882c50a4-a785-4c5a-8c68-6b98802b814d" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c7be6674-10d4-457e-b8e0-65518c2356d5" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="adda5bd1-4b37-4c4f-91d6-8987f387893e" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="cdfef3aa-8712-42fa-a7ae-e9a9b0fbcbb1" name="CreateConnection" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="CreateConnection()">
+            <referencesInternal>
+              <reference Id="4f8d8dfa-43c5-4d96-b85e-26d60e9aa6f5" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Model)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=DAL)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=DAL Member=CreateConnection)&quot;)" tag="DGQL" />
+              <reference Id="d5dc1866-a1e7-4e23-994c-5da66e7bb46a" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Model Type=DAL Member=CreateConnection)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="eecc45ee-b03d-47c1-b241-a6f84bea5643" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="a7416609-2287-4412-8bff-5c454552c9d2" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="520b0f0d-10a6-42c4-adca-b170606b24fa" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="549d4b9e-438d-47a2-8156-2f3a16634b07" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="d79868b8-bebf-4998-8a05-0e933228e6ef" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="cfbc3da2-b4db-4d9a-8f5a-ac08055b16be" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="f844afbc-a883-4efc-941e-c1fb30a0df9d" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="6dab4374-36fe-470d-80da-94ea095aed28" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="9d1bc0e0-b72d-4080-9f6f-20cc2e0d6ff9" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="753000bf-6826-4c07-9db7-f8eb0246614a" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="6a2b1422-721b-4768-9414-2ee2c2008ee5" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="7ef45286-7de8-4018-b484-beb293e833b4" name="CloseConnection" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="this.CloseConnection()">
+            <referencesInternal>
+              <reference Id="82842dbd-17fa-44ad-ae84-de7f97158ad4" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore.Model)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=DAL)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore.Model Type=DAL Member=CloseConnection)&quot;)" tag="DGQL" />
+              <reference Id="b00e4153-1ec4-4fb9-8107-95108b51ee5f" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore.Model Type=DAL Member=CloseConnection)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="2b2942e1-e98c-40c0-b5d6-9c6000c73cb6" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e88c5796-74e9-412e-ad15-8d7bbc9b5c00" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="4c885438-fd53-46c2-99ee-d5eb81899d9d" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="fa3e63de-b35e-4d77-b711-2fcf17aedf6d" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="9c7e19ec-d86a-4222-b666-8d7fd99f208b" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="5f749303-8823-49d3-b6ad-e4609fb55915" name="fillTracksGrid" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="myViewFrame.fillTracksGrid(dt)">
+            <referencesInternal>
+              <reference Id="bb55de37-0e0b-4102-bbe0-194e06b5fe43" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=TuneStore)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore Type=MainFrame)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&amp;quot; Namespace=TuneStore Type=MainFrame Member=(Name=fillTracksGrid OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Data.dll&amp;quot; Namespace=System.Data Type=DataTable)]))&quot;)" tag="DGQL" />
+              <reference Id="49526d50-74c6-4b6a-b0e1-4ec15ddd4b53" handle="(Assembly=&quot;$(19368c08-f919-4d7b-b668-cb0b7769a24a.OutputPathUri)&quot; Namespace=TuneStore Type=MainFrame Member=(Name=fillTracksGrid OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Data.dll&quot; Namespace=System.Data Type=DataTable)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c6bb4c68-4a14-409e-9fce-4950fb069251" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="f8e8a54a-f194-4c70-ae02-fb904fffc419" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="8f17d720-de8e-4e2f-afa3-e3db8da85d57" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6913f703-6bca-4245-ad9e-e8dec96fb72a" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="07d077df-2eb5-4c48-8bbb-bb932370cab1" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="2b30fc8f-1761-45dd-8073-d7cc995ef842" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e8ca7f0f-c9f9-46ee-8012-fff2da782d77" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="f61dde51-b658-4bfd-8719-6106593a9600" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="838ee7d0-6b17-4758-9374-ceb410076b6d" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="7ba697e3-9b15-4036-a59b-dea24ad9f415" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="3978eacb-2597-47b3-8d7b-6debb30cb0b1" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="8f11e69c-99a8-4899-8842-3e2ead12845b" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="1e814cf9-a036-4903-986f-455f59339e81" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="9eeff49b-06ac-44ac-a22d-3251cdeb75af" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="9718747e-e087-42dc-8a19-26ea5a5a9760" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="b73080f6-1333-43d5-903a-744e24b502dc" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="95a9799d-e658-405e-ae58-29475beaf169" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="38860757-3039-48ff-ba1d-929720795a0d" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e2f99b98-6e67-40ec-9d5e-b8191a9d73a5" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="c24588f9-dd23-4c1b-ab11-1c558f57ad5c" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="fe9ad928-2ad5-472d-a014-2931cba67da3" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ac4c0dd1-6bd5-4932-8ea6-03a7045ea942" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="7fd5bb00-a8b7-4d2a-ad5c-7c0d245a48cf" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="f88463e2-5269-4197-b42f-4e12045377d8" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a8f8a35c-af60-4b16-948a-1a741f9b537c" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="d57d5578-8139-41fc-b8b4-83e60cfe5958" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

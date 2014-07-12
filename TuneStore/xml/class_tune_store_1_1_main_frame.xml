@@ -1,0 +1,2465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_tune_store_1_1_main_frame" kind="class" prot="public">
+    <compoundname>TuneStore::MainFrame</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a2c1e9219138d78f8036c57795f04b80e" prot="private" static="no" mutable="no">
+        <type>Point</type>
+        <definition>Point TuneStore.MainFrame.mouseOffset</definition>
+        <argsstring></argsstring>
+        <name>mouseOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="19" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a91167f205bbd42a99380ec5b01e8bad8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TuneStore.MainFrame.isMouseDown</definition>
+        <argsstring></argsstring>
+        <name>isMouseDown</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="20" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1aa5b0eb134da35e2e81806100df889747" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; TabPage, Color &gt;</type>
+        <definition>Dictionary&lt;TabPage, Color&gt; TuneStore.MainFrame.TabColors</definition>
+        <argsstring></argsstring>
+        <name>TabColors</name>
+        <initializer>= new Dictionary&lt;TabPage, Color&gt;()</initializer>
+        <briefdescription>
+<para>page-colors dictionary </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="21" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ac4dbd2fc3af26641ecb9115842d51bbb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tune_store_1_1_controller_1_1_user_controller" kindref="compound">UserController</ref></type>
+        <definition>UserController TuneStore.MainFrame.myUserController</definition>
+        <argsstring></argsstring>
+        <name>myUserController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="22" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a061afb9d1ae65f84b9701d20489e0c4e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tune_store_1_1_controller_1_1_tracks_controller" kindref="compound">TracksController</ref></type>
+        <definition>TracksController TuneStore.MainFrame.myTracksController</definition>
+        <argsstring></argsstring>
+        <name>myTracksController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="23" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a54c2abbd9fe8e8e425369cab15ba4d39" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer TuneStore.MainFrame.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="8" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a87f3e859f8b88e5a3d95063d3d0f0228" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.CloseButton</definition>
+        <argsstring></argsstring>
+        <name>CloseButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1275" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ae16cfe91e3629fe47eadc0f9313a57cf" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage TuneStore.MainFrame.tracksPage</definition>
+        <argsstring></argsstring>
+        <name>tracksPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1276" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a740bceef158c046c783a3aa7bce298ee" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage TuneStore.MainFrame.cartPage</definition>
+        <argsstring></argsstring>
+        <name>cartPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1277" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ad6612070bd03626a9c8761578a891723" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabControl</type>
+        <definition>System.Windows.Forms.TabControl TuneStore.MainFrame.tracksControl</definition>
+        <argsstring></argsstring>
+        <name>tracksControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1278" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1af0ffd7ad4703afc1b5bafb6547943be6" prot="private" static="no" mutable="no">
+        <type>AxWMPLib.AxWindowsMediaPlayer</type>
+        <definition>AxWMPLib.AxWindowsMediaPlayer TuneStore.MainFrame.mediaPlayer</definition>
+        <argsstring></argsstring>
+        <name>mediaPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1279" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a11a28fc2ec2ccee1d93e0d4fcf684936" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.usernameLabel</definition>
+        <argsstring></argsstring>
+        <name>usernameLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1280" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a19d01b775a5ce688cb7b5c7ae49878e7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.passwordLabel</definition>
+        <argsstring></argsstring>
+        <name>passwordLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1281" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a2e65944cd7f421c6fff768cb53fac3db" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.usernameBox</definition>
+        <argsstring></argsstring>
+        <name>usernameBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1282" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a903c27526a644207f7cce0a406119aa9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox TuneStore.MainFrame.loginBox</definition>
+        <argsstring></argsstring>
+        <name>loginBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1283" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ab189c9b0930eb7242adb82ea6c412eba" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.LinkLabel</type>
+        <definition>System.Windows.Forms.LinkLabel TuneStore.MainFrame.loginLabel</definition>
+        <argsstring></argsstring>
+        <name>loginLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1284" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a32acd029bd15c5e48ed324f8fddd4311" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.passwordBox</definition>
+        <argsstring></argsstring>
+        <name>passwordBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1285" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a578395a62eae3cbc45015c7823183760" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage TuneStore.MainFrame.regTab</definition>
+        <argsstring></argsstring>
+        <name>regTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1286" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a7c7d1f3606243cb8703a62b3253bc388" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TableLayoutPanel</type>
+        <definition>System.Windows.Forms.TableLayoutPanel TuneStore.MainFrame.regTable</definition>
+        <argsstring></argsstring>
+        <name>regTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1287" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a81a2928f6f1d1ff2e81e752e22b28617" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.emailBox</definition>
+        <argsstring></argsstring>
+        <name>emailBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1288" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a714c6cb0edf1d60baca781dd6a9540de" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.passBox</definition>
+        <argsstring></argsstring>
+        <name>passBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1289" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1aeaae00935377181d710ffdd2217e26ce" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.regEmailLab</definition>
+        <argsstring></argsstring>
+        <name>regEmailLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1290" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a427d03c5e0d5bceecc2ce65a94fab785" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.regPassLab2</definition>
+        <argsstring></argsstring>
+        <name>regPassLab2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1291" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ade367ea939cc0c2964bd5f3cb1f7f8fe" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.regPassLabel</definition>
+        <argsstring></argsstring>
+        <name>regPassLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1292" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1af54bf046fcf2078331267aa0c5910ca9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.regUsrLabel</definition>
+        <argsstring></argsstring>
+        <name>regUsrLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1293" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a5ff24d89fc3a89bf15e0941d6463a5b4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DateTimePicker</type>
+        <definition>System.Windows.Forms.DateTimePicker TuneStore.MainFrame.birthDatePicker</definition>
+        <argsstring></argsstring>
+        <name>birthDatePicker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1294" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a8e9de953306e60cf6a0ae48be14004ac" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.regBirthLab</definition>
+        <argsstring></argsstring>
+        <name>regBirthLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1295" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1aaea879583f75acb6ef295a3e0a572143" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.uNameBox</definition>
+        <argsstring></argsstring>
+        <name>uNameBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1296" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1aaba404fab69a1901c566a01f148b6017" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.pass2Box</definition>
+        <argsstring></argsstring>
+        <name>pass2Box</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1297" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a688a24fb0281653ad429dbe72b1a9cb6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.CheckBox</type>
+        <definition>System.Windows.Forms.CheckBox TuneStore.MainFrame.proCheckBox</definition>
+        <argsstring></argsstring>
+        <name>proCheckBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1298" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a54d35aa50941dbf2cd9bd69c2f08cc34" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TableLayoutPanel</type>
+        <definition>System.Windows.Forms.TableLayoutPanel TuneStore.MainFrame.regTable2</definition>
+        <argsstring></argsstring>
+        <name>regTable2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1299" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a95b00be3bebb28fc290a6f1852ca5e68" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.lastNameBox</definition>
+        <argsstring></argsstring>
+        <name>lastNameBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1300" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a6f5f1110f6dcc858446eca709e42804f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1301" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a5c0f75df862c04012ca3202d288b1aa5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.lastNameLab</definition>
+        <argsstring></argsstring>
+        <name>lastNameLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1302" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a3b135ce1dbaa4b45f407ce6e553d9c08" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.firstNamelab</definition>
+        <argsstring></argsstring>
+        <name>firstNamelab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1303" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1acf912c5f57cbf5a04e9aabe9ac987419" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.firstNamebox</definition>
+        <argsstring></argsstring>
+        <name>firstNamebox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1304" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1af7bf27a94600b18f3d913048cdf7386b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.MaskedTextBox</type>
+        <definition>System.Windows.Forms.MaskedTextBox TuneStore.MainFrame.cardNumBox</definition>
+        <argsstring></argsstring>
+        <name>cardNumBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1305" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a9a17cde109e5ad11faf4f758c8f99f3f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.expDateLab</definition>
+        <argsstring></argsstring>
+        <name>expDateLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1306" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1af18c2cbcddda2d073e0ca9ed6baabaad" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.MaskedTextBox</type>
+        <definition>System.Windows.Forms.MaskedTextBox TuneStore.MainFrame.expDateBox</definition>
+        <argsstring></argsstring>
+        <name>expDateBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1307" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a9611e8f585fa04904cd4e731200a8c30" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1308" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a26469ec772acbe41896bedf43bcd3c9f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.MaskedTextBox</type>
+        <definition>System.Windows.Forms.MaskedTextBox TuneStore.MainFrame.valNumBox</definition>
+        <argsstring></argsstring>
+        <name>valNumBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1309" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1acc5a04d53c3697d0126fb65f0d3380c5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.regButton</definition>
+        <argsstring></argsstring>
+        <name>regButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1310" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ac87dab7301e3869f3993f9c1799d723c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.CheckBox</type>
+        <definition>System.Windows.Forms.CheckBox TuneStore.MainFrame.publisherCheckBox</definition>
+        <argsstring></argsstring>
+        <name>publisherCheckBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1311" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a322494287d051ed57076c85311babe6d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.MaskedTextBox</type>
+        <definition>System.Windows.Forms.MaskedTextBox TuneStore.MainFrame.initCreditBox</definition>
+        <argsstring></argsstring>
+        <name>initCreditBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1312" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a6ae49efc4c2aaa2cceb645561a0860cc" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1313" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1aa02e17a443456089d137e8fdd5be0f37" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TableLayoutPanel</type>
+        <definition>System.Windows.Forms.TableLayoutPanel TuneStore.MainFrame.withdrawTable</definition>
+        <argsstring></argsstring>
+        <name>withdrawTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1314" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a76039e3507fce2f0e537028348ffb3ae" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.withdrawLab</definition>
+        <argsstring></argsstring>
+        <name>withdrawLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1315" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a9daf03246d7604e7101ec361bef8d588" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.MaskedTextBox</type>
+        <definition>System.Windows.Forms.MaskedTextBox TuneStore.MainFrame.withdrawBox</definition>
+        <argsstring></argsstring>
+        <name>withdrawBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1316" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a9e24cf64167aa2b26d3da5ea7d84cdda" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.withdrawButton</definition>
+        <argsstring></argsstring>
+        <name>withdrawButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1317" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ace50e6f3959381abacab67109f8e4fa3" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.PictureBox</type>
+        <definition>System.Windows.Forms.PictureBox TuneStore.MainFrame.artworkBox</definition>
+        <argsstring></argsstring>
+        <name>artworkBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1318" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1af33b2a4e2cced67e94a3ff45c8845c8e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TableLayoutPanel</type>
+        <definition>System.Windows.Forms.TableLayoutPanel TuneStore.MainFrame.tableLayoutPanel2</definition>
+        <argsstring></argsstring>
+        <name>tableLayoutPanel2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1319" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a039dd634db35d316d5aea341fb307f64" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.commentInf</definition>
+        <argsstring></argsstring>
+        <name>commentInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1320" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a8eb2e4e3210fa5833ac05b5440bd0d7f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.filenameInf</definition>
+        <argsstring></argsstring>
+        <name>filenameInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1321" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1acc22770ad2b393979a367d6e30cf78b5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.pathInf</definition>
+        <argsstring></argsstring>
+        <name>pathInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1322" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ad4aa19a1b56628cc8c57d41166d22049" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.qualityInf</definition>
+        <argsstring></argsstring>
+        <name>qualityInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1323" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ac7be994d8fe058fe207289c4716b89af" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.bpmInf</definition>
+        <argsstring></argsstring>
+        <name>bpmInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1324" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ad26fc85df6e8287eff36e8800bfdef06" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.yearInf</definition>
+        <argsstring></argsstring>
+        <name>yearInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1325" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a451ede41bc807b395f9a47a4dee5e226" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.keyInf</definition>
+        <argsstring></argsstring>
+        <name>keyInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1326" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a76499f271dcf907e327be654dd2c51e7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.genreInf</definition>
+        <argsstring></argsstring>
+        <name>genreInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1327" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a41c6c6f2c6afa6aa16c23c1ad18cf22d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.albumInf</definition>
+        <argsstring></argsstring>
+        <name>albumInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1328" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a0dab9b4055e4bbb2fffff1ea49eb501e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.artistInf</definition>
+        <argsstring></argsstring>
+        <name>artistInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1329" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a3da026b851b747ed16b2af581572e144" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.label13</definition>
+        <argsstring></argsstring>
+        <name>label13</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1330" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a67d95851d735847436ff169830f2c3d1" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.label11</definition>
+        <argsstring></argsstring>
+        <name>label11</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1331" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a7b4b01eabb0b3b3c8aa1bc3420857986" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.label12</definition>
+        <argsstring></argsstring>
+        <name>label12</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1332" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1aa87ca34507895e034ad38dd4186fb1ce" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.bpmLab</definition>
+        <argsstring></argsstring>
+        <name>bpmLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1333" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a4e8b98ac640424bfa49e1c140e32800f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1334" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ad059d1c8634efecef019a56e986993a4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.genreLab</definition>
+        <argsstring></argsstring>
+        <name>genreLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1335" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a7ffceb1385d0b31b29b4c3c376e83a16" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.albumLab</definition>
+        <argsstring></argsstring>
+        <name>albumLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1336" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a57064db604bd94eca28d70a42d92355b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.artistLab</definition>
+        <argsstring></argsstring>
+        <name>artistLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1337" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ac4828c126cb08a10022c26f5eeba80bf" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.yearLab</definition>
+        <argsstring></argsstring>
+        <name>yearLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1338" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1aa317bbe6db95f18639295716ed358c89" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.keyLab</definition>
+        <argsstring></argsstring>
+        <name>keyLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1339" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a1e1c6461026044f6400ba117ce794c22" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.titleInf</definition>
+        <argsstring></argsstring>
+        <name>titleInf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1340" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1af0305c4ff1b6111b09122f87701e751a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.titleLab</definition>
+        <argsstring></argsstring>
+        <name>titleLab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1341" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a364f8f6fbc2b10c1bba113b817a4714e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TableLayoutPanel</type>
+        <definition>System.Windows.Forms.TableLayoutPanel TuneStore.MainFrame.tableLayoutPanel1</definition>
+        <argsstring></argsstring>
+        <name>tableLayoutPanel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1342" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a7e306db2b03299b9a912c06c11094128" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.artistLabel</definition>
+        <argsstring></argsstring>
+        <name>artistLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1343" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a3f55835aa38d92937c162071ac2712a1" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.artistBox</definition>
+        <argsstring></argsstring>
+        <name>artistBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1344" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a717df56d7083f2fb1127973527321dc9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.filterButton</definition>
+        <argsstring></argsstring>
+        <name>filterButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1345" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1aa089c8f246f4abcb51a7a69b3aecb79f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ComboBox</type>
+        <definition>System.Windows.Forms.ComboBox TuneStore.MainFrame.keyBox</definition>
+        <argsstring></argsstring>
+        <name>keyBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1346" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ad84662a060ef4b4b0685e8fc12a7fff9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.Album</definition>
+        <argsstring></argsstring>
+        <name>Album</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1347" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1ad31e6ff5a8b4876cf81a211669036f9c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.albumBox</definition>
+        <argsstring></argsstring>
+        <name>albumBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1348" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a0ba2785ffee182f9cdde2a2d8878999f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.titleLabel</definition>
+        <argsstring></argsstring>
+        <name>titleLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1349" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a2e03144d89cbb4e9d644cbae894a5f86" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.genreLabel</definition>
+        <argsstring></argsstring>
+        <name>genreLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1350" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a72ed9600a708366f1ac886996465ab3f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TuneStore.MainFrame.titleBox</definition>
+        <argsstring></argsstring>
+        <name>titleBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1351" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1afb1de8c120b39bcd01d755a428d207e6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.keyLabel</definition>
+        <argsstring></argsstring>
+        <name>keyLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1352" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a80b263aa0628fe0cf14d28c52ca898b9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ComboBox</type>
+        <definition>System.Windows.Forms.ComboBox TuneStore.MainFrame.genreBox</definition>
+        <argsstring></argsstring>
+        <name>genreBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1353" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a92c7e5731331f817a5820eea1acd24c1" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView TuneStore.MainFrame.tracksGrid</definition>
+        <argsstring></argsstring>
+        <name>tracksGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1354" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a4c8a077b3c4cfba5f3f3f606c9757c68" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.cartAddButton</definition>
+        <argsstring></argsstring>
+        <name>cartAddButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1355" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1aadbb088e684645dc5848f0a320be51b2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView TuneStore.MainFrame.cartGrid</definition>
+        <argsstring></argsstring>
+        <name>cartGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1356" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a471cafe8d2b7fd799f3da2a335f78eb7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.cartCheckoutButton</definition>
+        <argsstring></argsstring>
+        <name>cartCheckoutButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1357" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a2dd159498a0ff754b9fc49e2de159715" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.cartDeleteButton</definition>
+        <argsstring></argsstring>
+        <name>cartDeleteButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1358" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a9ed16e33bbbbe0305f8e8cc2231de64a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage TuneStore.MainFrame.myContentPage</definition>
+        <argsstring></argsstring>
+        <name>myContentPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1359" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a0114edbbbc8d2271a99b25a7c25760d7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.trackAddButton</definition>
+        <argsstring></argsstring>
+        <name>trackAddButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1360" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1af5369773e80253e9b4cb0df9b111afc7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.albumAddButton</definition>
+        <argsstring></argsstring>
+        <name>albumAddButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1361" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a8480486baecb9643e112240550fd0873" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView TuneStore.MainFrame.myTracksGrid</definition>
+        <argsstring></argsstring>
+        <name>myTracksGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1362" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a47cdfdfdda7325ce49d4656b12e5a8f5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TableLayoutPanel</type>
+        <definition>System.Windows.Forms.TableLayoutPanel TuneStore.MainFrame.tableLayoutPanel3</definition>
+        <argsstring></argsstring>
+        <name>tableLayoutPanel3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1363" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a868a07262e16e088e6358b1981eca89a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.MainFrame.fillButton</definition>
+        <argsstring></argsstring>
+        <name>fillButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1364" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a0e4eefda1a1ccc7a88c4b568fbdb23e0" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.MaskedTextBox</type>
+        <definition>System.Windows.Forms.MaskedTextBox TuneStore.MainFrame.fillBox</definition>
+        <argsstring></argsstring>
+        <name>fillBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1365" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_main_frame_1a7188d37a0a3b16fb3bba728bbc7c503e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.MainFrame.label5</definition>
+        <argsstring></argsstring>
+        <name>label5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="1366" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="1366" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tune_store_1_1_main_frame_1af8357e47c5adf1b4def03c2ef99ecb23" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_tune_store_1_1_runscriptfrm" kindref="compound">Runscriptfrm</ref></type>
+        <definition>Runscriptfrm TuneStore.MainFrame.Runscriptfrm</definition>
+        <argsstring></argsstring>
+        <name>Runscriptfrm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="54" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1ab0a7fd425cfbe4d9ed5351dbe0f0899a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TuneStore.MainFrame.MainFrame</definition>
+        <argsstring>()</argsstring>
+        <name>MainFrame</name>
+        <briefdescription>
+<para>Main Frame constructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="28" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="28" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a8a32f6966fd90df24a85fadcea8ec7d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.loginLabel_LinkClicked</definition>
+        <argsstring>(object sender, LinkLabelLinkClickedEventArgs e)</argsstring>
+        <name>loginLabel_LinkClicked</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>LinkLabelLinkClickedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Login event handler </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="208" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="208" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1aaf0481f5c8f99cb447fc232ca5a698c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.setViewByUserType</definition>
+        <argsstring>(String utype)</argsstring>
+        <name>setViewByUserType</name>
+        <param>
+          <type>String</type>
+          <declname>utype</declname>
+        </param>
+        <briefdescription>
+<para>Setting view by user&apos;s group </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>utype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>User type</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="334" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="334" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a919bb15a5b669920816a76924a5634c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.setInfoLabels</definition>
+        <argsstring>(DataRow trackinfo)</argsstring>
+        <name>setInfoLabels</name>
+        <param>
+          <type>DataRow</type>
+          <declname>trackinfo</declname>
+        </param>
+        <briefdescription>
+<para>Show track informations </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trackinfo</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="462" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="462" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1ab9e2975a8e69eef23679870fe908d373" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.setArtworkBox</definition>
+        <argsstring>(Image i)</argsstring>
+        <name>setArtworkBox</name>
+        <param>
+          <type>Image</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Show artwork </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Artwork image </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="486" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="486" bodyend="490"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1abae54e26316c3b6bc34b8357a1a9ab96" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.fillTracksGrid</definition>
+        <argsstring>()</argsstring>
+        <name>fillTracksGrid</name>
+        <briefdescription>
+<para>Request controller for tracks on tracks page(tab) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="68" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1acc8e07546941922d03f9832980fd63fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.SetTabHeader</definition>
+        <argsstring>(TabPage page, Color color)</argsstring>
+        <name>SetTabHeader</name>
+        <param>
+          <type>TabPage</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Setting tab color </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>page</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tab page</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Color</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="113" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a43297cd765af392713fc137ed258ca5e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.tracksControl_DrawItem</definition>
+        <argsstring>(object sender, DrawItemEventArgs e)</argsstring>
+        <name>tracksControl_DrawItem</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DrawItemEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Draw custom tabs </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="124" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="124" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a53fb77e9abbb78ab1b6592eb34130c76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.MainFrame_MouseDown</definition>
+        <argsstring>(object sender, System.Windows.Forms.MouseEventArgs e)</argsstring>
+        <name>MainFrame_MouseDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.Forms.MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Mouse down event, required for custom form </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="146" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="146" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a3d67bdc5e2a1e667447c8dbe83b1c57e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.MainFrame_MouseMove</definition>
+        <argsstring>(object sender, System.Windows.Forms.MouseEventArgs e)</argsstring>
+        <name>MainFrame_MouseMove</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.Forms.MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Mose move event handler, required for custom form </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="167" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="167" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a9de2394624dc0bbaef3344f883a9d3bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.MainFrame_MouseUp</definition>
+        <argsstring>(object sender, System.Windows.Forms.MouseEventArgs e)</argsstring>
+        <name>MainFrame_MouseUp</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.Forms.MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Mouse up event, required for custom form </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="182" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="182" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a237af2056fa3f64ba15c4a7c230adae9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.CloseButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CloseButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Custom close button click event handler </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="197" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="197" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a319258e3cf9ecc7bfbe4e3f52ec18bfa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.proCheckBox_CheckedChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>proCheckBox_CheckedChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Pro/Free user registration handler.For pro users we need more informations </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="246" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="246" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a9add34baacab9e64927acebc4a0f06f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.regButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>regButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Registration button click handler </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="269" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="269" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1aeea0b6263a45451b86d48b2b65f23407" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.publisherCheckBox_CheckedChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>publisherCheckBox_CheckedChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Publisher registration needs more details </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="314" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="314" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a9858b6cc18802cf79ccec0d249d9c0bf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.fillMyTracksGrid</definition>
+        <argsstring>()</argsstring>
+        <name>fillMyTracksGrid</name>
+        <briefdescription>
+<para>Fill grid with user&apos;s purchased/added tracks </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="414" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="414" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1af22bb1f6f0b45c864ac0e042d896bad8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.filterButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>filterButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Request controller for filtering tracks grid by introduced parameters </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="436" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="436" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a04b9097368f5a755475e3bf41bcd56a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.tracksGrid_SelectionChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>tracksGrid_SelectionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Grid selection changed handler,request track information change from controller </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="446" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="446" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a787f441f2d53c8519d501a707f8599a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.tracksGrid_Play</definition>
+        <argsstring>(object sender, System.Windows.Forms.DataGridViewCellMouseEventArgs e)</argsstring>
+        <name>tracksGrid_Play</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.Forms.DataGridViewCellMouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="491" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="491" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a719f656cb3e39fd0040264ba8b87d46e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.cartGrid_Play</definition>
+        <argsstring>(object sender, System.Windows.Forms.DataGridViewCellMouseEventArgs e)</argsstring>
+        <name>cartGrid_Play</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.Forms.DataGridViewCellMouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Request track path for playing </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="510" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="510" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a45461d25ee1c7796164ad894f0a31801" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.cartAddButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>cartAddButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Cart add button handler </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="530" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="530" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1ab562b85aba85144c146e1849ad3ee27f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.trackAddButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>trackAddButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Single track add button handler </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="544" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="544" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1ad7cf0d78b4bc4280950eff967bf7658d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.albumAddButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>albumAddButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Album add button handler </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="566" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="566" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1ae524c9ccb4a31cebb3fe20c392cdd5ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.cartCheckoutButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>cartCheckoutButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Cart checkout button handler </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="599" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="599" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a6ca5af013f1c42bfcf73dcacf209d042" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.withdrawButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>withdrawButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Withdraw credit button handler </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="611" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="611" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1abca20279d665f0ed3ca5642af416f3cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.fillButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>fillButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Fill account with credit handler </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="621" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="621" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1ac986defea0d5c0bd88b14169c8181f5d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="29" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="29" bodyend="1269"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a19b733c5f22dd6d4cb036dac48d4f7c4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.fillTracksGrid</definition>
+        <argsstring>(DataTable dt)</argsstring>
+        <name>fillTracksGrid</name>
+        <param>
+          <type>DataTable</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>Fill tracks grid with DataTable, Invoked by controller </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DataTable with tracks data</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="80" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a69c3e2aad49be3bd75af72af3f78b9e9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.fillCartGrid</definition>
+        <argsstring>()</argsstring>
+        <name>fillCartGrid</name>
+        <briefdescription>
+<para>Request cart grid fill from controller </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="91" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1affabedc6da75c9159c1bfc9553290d27" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.fillCartGrid</definition>
+        <argsstring>(DataTable dt)</argsstring>
+        <name>fillCartGrid</name>
+        <param>
+          <type>DataTable</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="namespace_tune_store_1_1_controller" kindref="compound">Controller</ref> invoked cart grid fill </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DataTable with tracks data</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="100" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="100" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1ad73cf535fd290b0adb456268c8acafb1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.setGuestViewOptions</definition>
+        <argsstring>()</argsstring>
+        <name>setGuestViewOptions</name>
+        <briefdescription>
+<para>Set view to guest </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="399" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="399" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a7ecfa63c115e8fbd59d4e5f18ee0870d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.setUserandPass</definition>
+        <argsstring>(string p1, string p2)</argsstring>
+        <name>setUserandPass</name>
+        <param>
+          <type>string</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Automatic login after registration </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Username</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="424" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="424" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1aa81d6faa968fc7e2099fa98b1bc9c419" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.MainFrame.fillUserTracksGrid</definition>
+        <argsstring>(DataTable dt)</argsstring>
+        <name>fillUserTracksGrid</name>
+        <param>
+          <type>DataTable</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>Fill user tracks grid </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dt</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="585" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="585" bodyend="592"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tune_store_1_1_main_frame_1a6b8d40a788e25cf9904991e9b386746c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TuneStore.MainFrame.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" line="14" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Main form, the view layer </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>Form</label>
+      </node>
+      <node id="9">
+        <label>TuneStore.MainFrame</label>
+        <link refid="class_tune_store_1_1_main_frame"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>Form</label>
+      </node>
+      <node id="11">
+        <label>TuneStore.MainFrame</label>
+        <link refid="class_tune_store_1_1_main_frame"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" line="18" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/TuneStore.cs" bodystart="17" bodyend="626"/>
+    <listofallmembers>
+      <member refid="class_tune_store_1_1_main_frame_1ad84662a060ef4b4b0685e8fc12a7fff9" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>Album</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1af5369773e80253e9b4cb0df9b111afc7" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>albumAddButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ad7cf0d78b4bc4280950eff967bf7658d" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>albumAddButton_Click</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ad31e6ff5a8b4876cf81a211669036f9c" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>albumBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a41c6c6f2c6afa6aa16c23c1ad18cf22d" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>albumInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a7ffceb1385d0b31b29b4c3c376e83a16" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>albumLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a3f55835aa38d92937c162071ac2712a1" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>artistBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a0dab9b4055e4bbb2fffff1ea49eb501e" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>artistInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a57064db604bd94eca28d70a42d92355b" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>artistLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a7e306db2b03299b9a912c06c11094128" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>artistLabel</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ace50e6f3959381abacab67109f8e4fa3" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>artworkBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a5ff24d89fc3a89bf15e0941d6463a5b4" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>birthDatePicker</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ac7be994d8fe058fe207289c4716b89af" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>bpmInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aa87ca34507895e034ad38dd4186fb1ce" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>bpmLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1af7bf27a94600b18f3d913048cdf7386b" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>cardNumBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a4c8a077b3c4cfba5f3f3f606c9757c68" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>cartAddButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a45461d25ee1c7796164ad894f0a31801" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>cartAddButton_Click</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a471cafe8d2b7fd799f3da2a335f78eb7" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>cartCheckoutButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ae524c9ccb4a31cebb3fe20c392cdd5ba" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>cartCheckoutButton_Click</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a2dd159498a0ff754b9fc49e2de159715" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>cartDeleteButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aadbb088e684645dc5848f0a320be51b2" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>cartGrid</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a719f656cb3e39fd0040264ba8b87d46e" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>cartGrid_Play</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a740bceef158c046c783a3aa7bce298ee" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>cartPage</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a87f3e859f8b88e5a3d95063d3d0f0228" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>CloseButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a237af2056fa3f64ba15c4a7c230adae9" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>CloseButton_Click</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a039dd634db35d316d5aea341fb307f64" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>commentInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a54c2abbd9fe8e8e425369cab15ba4d39" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>components</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a6b8d40a788e25cf9904991e9b386746c" prot="protected" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>Dispose</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a81a2928f6f1d1ff2e81e752e22b28617" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>emailBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1af18c2cbcddda2d073e0ca9ed6baabaad" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>expDateBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a9a17cde109e5ad11faf4f758c8f99f3f" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>expDateLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a8eb2e4e3210fa5833ac05b5440bd0d7f" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>filenameInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a0e4eefda1a1ccc7a88c4b568fbdb23e0" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>fillBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a868a07262e16e088e6358b1981eca89a" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>fillButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1abca20279d665f0ed3ca5642af416f3cd" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>fillButton_Click</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a69c3e2aad49be3bd75af72af3f78b9e9" prot="package" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>fillCartGrid</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1affabedc6da75c9159c1bfc9553290d27" prot="package" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>fillCartGrid</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a9858b6cc18802cf79ccec0d249d9c0bf" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>fillMyTracksGrid</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1abae54e26316c3b6bc34b8357a1a9ab96" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>fillTracksGrid</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a19b733c5f22dd6d4cb036dac48d4f7c4" prot="package" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>fillTracksGrid</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aa81d6faa968fc7e2099fa98b1bc9c419" prot="package" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>fillUserTracksGrid</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a717df56d7083f2fb1127973527321dc9" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>filterButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1af22bb1f6f0b45c864ac0e042d896bad8" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>filterButton_Click</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1acf912c5f57cbf5a04e9aabe9ac987419" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>firstNamebox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a3b135ce1dbaa4b45f407ce6e553d9c08" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>firstNamelab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a80b263aa0628fe0cf14d28c52ca898b9" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>genreBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a76499f271dcf907e327be654dd2c51e7" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>genreInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ad059d1c8634efecef019a56e986993a4" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>genreLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a2e03144d89cbb4e9d644cbae894a5f86" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>genreLabel</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a322494287d051ed57076c85311babe6d" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>initCreditBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ac986defea0d5c0bd88b14169c8181f5d" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>InitializeComponent</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a91167f205bbd42a99380ec5b01e8bad8" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>isMouseDown</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aa089c8f246f4abcb51a7a69b3aecb79f" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>keyBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a451ede41bc807b395f9a47a4dee5e226" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>keyInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aa317bbe6db95f18639295716ed358c89" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>keyLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1afb1de8c120b39bcd01d755a428d207e6" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>keyLabel</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a9611e8f585fa04904cd4e731200a8c30" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>label1</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a67d95851d735847436ff169830f2c3d1" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>label11</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a7b4b01eabb0b3b3c8aa1bc3420857986" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>label12</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a3da026b851b747ed16b2af581572e144" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>label13</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a6f5f1110f6dcc858446eca709e42804f" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>label2</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a6ae49efc4c2aaa2cceb645561a0860cc" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>label3</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a4e8b98ac640424bfa49e1c140e32800f" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>label4</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a7188d37a0a3b16fb3bba728bbc7c503e" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>label5</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a95b00be3bebb28fc290a6f1852ca5e68" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>lastNameBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a5c0f75df862c04012ca3202d288b1aa5" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>lastNameLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a903c27526a644207f7cce0a406119aa9" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>loginBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ab189c9b0930eb7242adb82ea6c412eba" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>loginLabel</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a8a32f6966fd90df24a85fadcea8ec7d1" prot="public" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>loginLabel_LinkClicked</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ab0a7fd425cfbe4d9ed5351dbe0f0899a" prot="public" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>MainFrame</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a53fb77e9abbb78ab1b6592eb34130c76" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>MainFrame_MouseDown</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a3d67bdc5e2a1e667447c8dbe83b1c57e" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>MainFrame_MouseMove</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a9de2394624dc0bbaef3344f883a9d3bd" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>MainFrame_MouseUp</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1af0ffd7ad4703afc1b5bafb6547943be6" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>mediaPlayer</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a2c1e9219138d78f8036c57795f04b80e" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>mouseOffset</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a9ed16e33bbbbe0305f8e8cc2231de64a" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>myContentPage</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a061afb9d1ae65f84b9701d20489e0c4e" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>myTracksController</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a8480486baecb9643e112240550fd0873" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>myTracksGrid</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ac4dbd2fc3af26641ecb9115842d51bbb" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>myUserController</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aaba404fab69a1901c566a01f148b6017" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>pass2Box</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a714c6cb0edf1d60baca781dd6a9540de" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>passBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a32acd029bd15c5e48ed324f8fddd4311" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>passwordBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a19d01b775a5ce688cb7b5c7ae49878e7" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>passwordLabel</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1acc22770ad2b393979a367d6e30cf78b5" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>pathInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a688a24fb0281653ad429dbe72b1a9cb6" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>proCheckBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a319258e3cf9ecc7bfbe4e3f52ec18bfa" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>proCheckBox_CheckedChanged</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ac87dab7301e3869f3993f9c1799d723c" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>publisherCheckBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aeea0b6263a45451b86d48b2b65f23407" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>publisherCheckBox_CheckedChanged</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ad4aa19a1b56628cc8c57d41166d22049" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>qualityInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a8e9de953306e60cf6a0ae48be14004ac" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regBirthLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1acc5a04d53c3697d0126fb65f0d3380c5" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a9add34baacab9e64927acebc4a0f06f1" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regButton_Click</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aeaae00935377181d710ffdd2217e26ce" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regEmailLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a427d03c5e0d5bceecc2ce65a94fab785" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regPassLab2</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ade367ea939cc0c2964bd5f3cb1f7f8fe" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regPassLabel</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a578395a62eae3cbc45015c7823183760" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regTab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a7c7d1f3606243cb8703a62b3253bc388" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regTable</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a54d35aa50941dbf2cd9bd69c2f08cc34" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regTable2</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1af54bf046fcf2078331267aa0c5910ca9" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>regUsrLabel</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1af8357e47c5adf1b4def03c2ef99ecb23" prot="public" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>Runscriptfrm</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ab9e2975a8e69eef23679870fe908d373" prot="public" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>setArtworkBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ad73cf535fd290b0adb456268c8acafb1" prot="package" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>setGuestViewOptions</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a919bb15a5b669920816a76924a5634c6" prot="public" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>setInfoLabels</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1acc8e07546941922d03f9832980fd63fc" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>SetTabHeader</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a7ecfa63c115e8fbd59d4e5f18ee0870d" prot="package" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>setUserandPass</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aaf0481f5c8f99cb447fc232ca5a698c1" prot="public" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>setViewByUserType</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aa5b0eb134da35e2e81806100df889747" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>TabColors</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a364f8f6fbc2b10c1bba113b817a4714e" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>tableLayoutPanel1</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1af33b2a4e2cced67e94a3ff45c8845c8e" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>tableLayoutPanel2</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a47cdfdfdda7325ce49d4656b12e5a8f5" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>tableLayoutPanel3</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a72ed9600a708366f1ac886996465ab3f" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>titleBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a1e1c6461026044f6400ba117ce794c22" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>titleInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1af0305c4ff1b6111b09122f87701e751a" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>titleLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a0ba2785ffee182f9cdde2a2d8878999f" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>titleLabel</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a0114edbbbc8d2271a99b25a7c25760d7" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>trackAddButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ab562b85aba85144c146e1849ad3ee27f" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>trackAddButton_Click</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ad6612070bd03626a9c8761578a891723" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>tracksControl</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a43297cd765af392713fc137ed258ca5e" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>tracksControl_DrawItem</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a92c7e5731331f817a5820eea1acd24c1" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>tracksGrid</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a787f441f2d53c8519d501a707f8599a9" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>tracksGrid_Play</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a04b9097368f5a755475e3bf41bcd56a6" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>tracksGrid_SelectionChanged</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ae16cfe91e3629fe47eadc0f9313a57cf" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>tracksPage</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aaea879583f75acb6ef295a3e0a572143" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>uNameBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a2e65944cd7f421c6fff768cb53fac3db" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>usernameBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a11a28fc2ec2ccee1d93e0d4fcf684936" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>usernameLabel</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a26469ec772acbe41896bedf43bcd3c9f" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>valNumBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a9daf03246d7604e7101ec361bef8d588" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>withdrawBox</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a9e24cf64167aa2b26d3da5ea7d84cdda" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>withdrawButton</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a6ca5af013f1c42bfcf73dcacf209d042" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>withdrawButton_Click</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1a76039e3507fce2f0e537028348ffb3ae" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>withdrawLab</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1aa02e17a443456089d137e8fdd5be0f37" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>withdrawTable</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ad26fc85df6e8287eff36e8800bfdef06" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>yearInf</name></member>
+      <member refid="class_tune_store_1_1_main_frame_1ac4828c126cb08a10022c26f5eeba80bf" prot="private" virt="non-virtual"><scope>TuneStore::MainFrame</scope><name>yearLab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

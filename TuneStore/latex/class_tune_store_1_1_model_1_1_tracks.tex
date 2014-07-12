@@ -1,0 +1,125 @@
+\hypertarget{class_tune_store_1_1_model_1_1_tracks}{\section{Tune\+Store.\+Model.\+Tracks Class Reference}
+\label{class_tune_store_1_1_model_1_1_tracks}\index{Tune\+Store.\+Model.\+Tracks@{Tune\+Store.\+Model.\+Tracks}}
+}
+
+
+\hyperlink{class_tune_store_1_1_model_1_1_tracks}{Tracks} access layer  
+
+
+Inheritance diagram for Tune\+Store.\+Model.\+Tracks\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_tune_store_1_1_model_1_1_tracks}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tune_store_1_1_model_1_1_tracks_ac5ca23ca4329b7a9f060d6307275e052}{Tracks} (int Id)
+\begin{DoxyCompactList}\small\item\em Constructor \end{DoxyCompactList}\item 
+Data\+Table \hyperlink{class_tune_store_1_1_model_1_1_tracks_ab86f9768aa3f019fde99e3545c1fc5b2}{get\+Data\+Table} (String query)
+\begin{DoxyCompactList}\small\item\em Get a Data\+Table from given query \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{class_tune_store_1_1_model_1_1_tracks_a99770d353dc98772b4d24a7eaf90c831}{get\+Filter\+String} (string artist, string album, string title, string genre, string key)
+\begin{DoxyCompactList}\small\item\em Get query string from given filtering parameters \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_tune_store_1_1_model_1_1_tracks}{Tracks} access layer 
+
+
+
+Definition at line 17 of file Tracks.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tune_store_1_1_model_1_1_tracks_ac5ca23ca4329b7a9f060d6307275e052}{\index{Tune\+Store\+::\+Model\+::\+Tracks@{Tune\+Store\+::\+Model\+::\+Tracks}!Tracks@{Tracks}}
+\index{Tracks@{Tracks}!Tune\+Store\+::\+Model\+::\+Tracks@{Tune\+Store\+::\+Model\+::\+Tracks}}
+\subsubsection[{Tracks}]{\setlength{\rightskip}{0pt plus 5cm}Tune\+Store.\+Model.\+Tracks.\+Tracks (
+\begin{DoxyParamCaption}
+\item[{int}]{Id}
+\end{DoxyParamCaption}
+)}}\label{class_tune_store_1_1_model_1_1_tracks_ac5ca23ca4329b7a9f060d6307275e052}
+
+
+Constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Id} & \hyperlink{class_tune_store_1_1_model_1_1_user}{User} identifier\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 25 of file Tracks.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tune_store_1_1_model_1_1_tracks_ab86f9768aa3f019fde99e3545c1fc5b2}{\index{Tune\+Store\+::\+Model\+::\+Tracks@{Tune\+Store\+::\+Model\+::\+Tracks}!get\+Data\+Table@{get\+Data\+Table}}
+\index{get\+Data\+Table@{get\+Data\+Table}!Tune\+Store\+::\+Model\+::\+Tracks@{Tune\+Store\+::\+Model\+::\+Tracks}}
+\subsubsection[{get\+Data\+Table}]{\setlength{\rightskip}{0pt plus 5cm}Data\+Table Tune\+Store.\+Model.\+Tracks.\+get\+Data\+Table (
+\begin{DoxyParamCaption}
+\item[{String}]{query}
+\end{DoxyParamCaption}
+)}}\label{class_tune_store_1_1_model_1_1_tracks_ab86f9768aa3f019fde99e3545c1fc5b2}
+
+
+Get a Data\+Table from given query 
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Data\+Table with requested tracks
+\end{DoxyReturn}
+
+
+Definition at line 35 of file Tracks.\+cs.
+
+\hypertarget{class_tune_store_1_1_model_1_1_tracks_a99770d353dc98772b4d24a7eaf90c831}{\index{Tune\+Store\+::\+Model\+::\+Tracks@{Tune\+Store\+::\+Model\+::\+Tracks}!get\+Filter\+String@{get\+Filter\+String}}
+\index{get\+Filter\+String@{get\+Filter\+String}!Tune\+Store\+::\+Model\+::\+Tracks@{Tune\+Store\+::\+Model\+::\+Tracks}}
+\subsubsection[{get\+Filter\+String}]{\setlength{\rightskip}{0pt plus 5cm}static string Tune\+Store.\+Model.\+Tracks.\+get\+Filter\+String (
+\begin{DoxyParamCaption}
+\item[{string}]{artist, }
+\item[{string}]{album, }
+\item[{string}]{title, }
+\item[{string}]{genre, }
+\item[{string}]{key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tune_store_1_1_model_1_1_tracks_a99770d353dc98772b4d24a7eaf90c831}
+
+
+Get query string from given filtering parameters 
+
+
+\begin{DoxyParams}{Parameters}
+{\em artist} & Artist Name\\
+\hline
+{\em album} & Album Title\\
+\hline
+{\em title} & Track Title\\
+\hline
+{\em genre} & Genre name\\
+\hline
+{\em key} & Key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sql query string
+\end{DoxyReturn}
+
+
+Definition at line 70 of file Tracks.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Tune\+Store/\+Model/Tracks.\+cs\end{DoxyCompactItemize}

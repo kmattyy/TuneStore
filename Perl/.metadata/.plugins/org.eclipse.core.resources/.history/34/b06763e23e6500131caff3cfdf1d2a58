@@ -1,0 +1,16 @@
+
+package Track::Insert
+
+use DBI;
+use strict;
+use warnings;
+
+
+ 
+
+
+our $string="dbi:ODBC:dsn=project;Database=projecttest;Trusted_Connection=Yes";
+
+ my $mssql_dbh = DBI -> connect($string) or die "\n\nthe mssql connection died with the following error: \n\n$DBI::errstr\n\n";
+ print "Success!!";
+ 

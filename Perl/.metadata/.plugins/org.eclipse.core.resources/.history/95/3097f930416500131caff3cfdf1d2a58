@@ -1,0 +1,33 @@
+ 
+ #!/usr/bin/perl
+
+# PERL MODULES WE WILL BE USING
+use DBI;
+use Insert;
+
+ $string="dbi:ODBC:dsn=project;Database=Lab4;Trusted_Connection=Yes";
+ my $mssql_dbh = DBI -> connect($string) or die "\n\nthe mssql connection died with the following error: \n\n$DBI::errstr\n\n";
+ print "Database connection OK!";
+
+
+my $myquery = "Update cikkek SET cim='D divizioban a Juventus' where cim='C divizioban a Juventus'";
+ #$sql = "select * from samples";
+$sth = $mssql_dbh->prepare($myquery);
+
+$sth->execute
+ or die "SQL Error: $DBI::errstr\n";
+ my $myquery = "SELECT * FROM cikkek";
+ 
+ $sth = $mssql_dbh->prepare($myquery);
+
+$sth->execute
+ or die "SQL Error: $DBI::errstr\n";
+ 
+  while (@row = $sth->fetchrow_array) {
+ print "@row\n";
+ } 
+ print"\n";
+  print $ARGV[0];
+    print $ARGV[1];
+
+   

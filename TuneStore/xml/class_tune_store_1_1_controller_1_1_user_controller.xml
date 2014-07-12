@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_tune_store_1_1_controller_1_1_user_controller" kind="class" prot="public">
+    <compoundname>TuneStore::Controller::UserController</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tune_store_1_1_controller_1_1_user_controller_1a263d3795d1d1811d154d9dc4c29194bd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tune_store_1_1_model_1_1_login" kindref="compound">Login</ref></type>
+        <definition>Login TuneStore.Controller.UserController.myUserLogin</definition>
+        <argsstring></argsstring>
+        <name>myUserLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="16" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_controller_1_1_user_controller_1a54954b00f214e9a61ab915a72e52eb7d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tune_store_1_1_main_frame" kindref="compound">MainFrame</ref></type>
+        <definition>MainFrame TuneStore.Controller.UserController.myViewFrame</definition>
+        <argsstring></argsstring>
+        <name>myViewFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="17" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_controller_1_1_user_controller_1aa08e4a0303b98f81f69413bff8812f96" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tune_store_1_1_model_1_1_user" kindref="compound">User</ref></type>
+        <definition>User TuneStore.Controller.UserController.myUser</definition>
+        <argsstring></argsstring>
+        <name>myUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="18" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_user_controller_1aedacc5c50043fe95376b9fbe548f1179" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TuneStore.Controller.UserController.UserController</definition>
+        <argsstring>(MainFrame ts)</argsstring>
+        <name>UserController</name>
+        <param>
+          <type><ref refid="class_tune_store_1_1_main_frame" kindref="compound">MainFrame</ref></type>
+          <declname>ts</declname>
+        </param>
+        <briefdescription>
+<para>Guest user controller constructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>View frame</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="24" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_user_controller_1aef029b55fd2db0e17720b06655bc34a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean TuneStore.Controller.UserController.login</definition>
+        <argsstring>(String uname, String passw)</argsstring>
+        <name>login</name>
+        <param>
+          <type>String</type>
+          <declname>uname</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>passw</declname>
+        </param>
+        <briefdescription>
+<para>Login user by username and password and set view by user type </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Username</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>passw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Succesful/Unsuccesful(true/false)</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="35" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="35" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_user_controller_1afa03d496d2db85b6da0017e9bb7a3b17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean TuneStore.Controller.UserController.logout</definition>
+        <argsstring>()</argsstring>
+        <name>logout</name>
+        <briefdescription>
+<para>Logout user , set guest view </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="49" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_user_controller_1a6d842efdc09869eb99b577ed301e2bb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TuneStore.Controller.UserController.getUserId</definition>
+        <argsstring>()</argsstring>
+        <name>getUserId</name>
+        <briefdescription>
+<para>User identifier(id) getter </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>User identifier(Int)</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="98" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_user_controller_1a9c5b30bd94f0474fa16695e773fe9c8c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.UserController.getUserInfromation</definition>
+        <argsstring>()</argsstring>
+        <name>getUserInfromation</name>
+        <briefdescription>
+<para>Fill user informations into view </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="59" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_user_controller_1a40ce401bc8288f749ad2758a167821d2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.UserController.registerUser</definition>
+        <argsstring>(Dictionary&lt; string, string &gt; userinfo)</argsstring>
+        <name>registerUser</name>
+        <param>
+          <type>Dictionary&lt; string, string &gt;</type>
+          <declname>userinfo</declname>
+        </param>
+        <briefdescription>
+<para>Checking information correctness and registering user </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userinfo</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="69" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="69" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_user_controller_1af40ee3e710e6080993d487eb03341bc2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.UserController.fillwithdrawCredit</definition>
+        <argsstring>(string amount, string command)</argsstring>
+        <name>fillwithdrawCredit</name>
+        <param>
+          <type>string</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Fill account with credit for pro users/Withdraw for publisher </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Amount of credit</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Fill/Withdraw</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="108" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="108" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_tune_store_1_1_controller" kindref="compound">Controller</ref> class for user operations, </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" line="15" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/UserController.cs" bodystart="14" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1af40ee3e710e6080993d487eb03341bc2" prot="package" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>fillwithdrawCredit</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a6d842efdc09869eb99b577ed301e2bb2" prot="public" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>getUserId</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a9c5b30bd94f0474fa16695e773fe9c8c" prot="package" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>getUserInfromation</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1aef029b55fd2db0e17720b06655bc34a1" prot="public" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>login</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1afa03d496d2db85b6da0017e9bb7a3b17" prot="public" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>logout</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1aa08e4a0303b98f81f69413bff8812f96" prot="private" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>myUser</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a263d3795d1d1811d154d9dc4c29194bd" prot="private" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>myUserLogin</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a54954b00f214e9a61ab915a72e52eb7d" prot="private" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>myViewFrame</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a40ce401bc8288f749ad2758a167821d2" prot="package" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>registerUser</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_user_controller_1aedacc5c50043fe95376b9fbe548f1179" prot="public" virt="non-virtual"><scope>TuneStore::Controller::UserController</scope><name>UserController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

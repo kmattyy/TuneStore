@@ -1,0 +1,260 @@
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l}{\section{Tune\+Store.\+Model.\+D\+A\+L Class Reference}
+\label{class_tune_store_1_1_model_1_1_d_a_l}\index{Tune\+Store.\+Model.\+D\+A\+L@{Tune\+Store.\+Model.\+D\+A\+L}}
+}
+
+
+Data access layer superclass of model classes  
+
+
+Inheritance diagram for Tune\+Store.\+Model.\+D\+A\+L\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_tune_store_1_1_model_1_1_d_a_l}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{class_tune_store_1_1_model_1_1_d_a_l_abc0363548c4a5260b488da0180643388}{M\+D5\+Hash} (string text)
+\begin{DoxyCompactList}\small\item\em String to M\+D5 hash generator \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_ac7f3fcd580550051af6d55ad6f60b4d6}{bool {\bfseries Is\+Connect\+Created} ()}\label{class_tune_store_1_1_model_1_1_d_a_l_ac7f3fcd580550051af6d55ad6f60b4d6}
+
+\item 
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_afbed4e1710000cf02ff78502fc129e91}{bool {\bfseries Is\+Connected} ()}\label{class_tune_store_1_1_model_1_1_d_a_l_afbed4e1710000cf02ff78502fc129e91}
+
+\item 
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_a95b31c4a1c14fda499a962abf81df3c5}{Sql\+Connection {\bfseries Get\+Connection} ()}\label{class_tune_store_1_1_model_1_1_d_a_l_a95b31c4a1c14fda499a962abf81df3c5}
+
+\item 
+bool \hyperlink{class_tune_store_1_1_model_1_1_d_a_l_ab31c1978d9d09f57793cf307807bc577}{Create\+Connection} ()
+\begin{DoxyCompactList}\small\item\em Creates a new Database Connection \end{DoxyCompactList}\item 
+bool \hyperlink{class_tune_store_1_1_model_1_1_d_a_l_a95012ed2fb7e4242eb95199315a86eaf}{Open\+Connection} ()
+\begin{DoxyCompactList}\small\item\em Open the Connection when the state is not already open. \end{DoxyCompactList}\item 
+object \hyperlink{class_tune_store_1_1_model_1_1_d_a_l_ad29e5842a6d4df190309dab55aaa6cb7}{Execute\+Scalar} (string query, ref string error\+Message)
+\begin{DoxyCompactList}\small\item\em Execute sql query \end{DoxyCompactList}\item 
+Sql\+Data\+Reader \hyperlink{class_tune_store_1_1_model_1_1_d_a_l_a084bc2866f85d34bdd6d4ece7f9472e3}{Execute\+Reader} (string query, ref string error\+Message)
+\begin{DoxyCompactList}\small\item\em Executes a given query, and returns the result in a datareader \end{DoxyCompactList}\item 
+void \hyperlink{class_tune_store_1_1_model_1_1_d_a_l_ac8f347f0d27aeadc61bc341276664290}{Close\+Data\+Reader} (Sql\+Data\+Reader rdr)
+\begin{DoxyCompactList}\small\item\em Closes the data reader given as a parameter, and also closes the connection \end{DoxyCompactList}\item 
+string \hyperlink{class_tune_store_1_1_model_1_1_d_a_l_a50bce22a6e2222ef51e1d79d1cb1da18}{Execute\+Non\+Query} (string command)
+\begin{DoxyCompactList}\small\item\em Executes a given insert/update/delete command, and returns an error message. (errormessage is \char`\"{}\+O\+K\char`\"{} if no exception occured) \end{DoxyCompactList}\item 
+string \hyperlink{class_tune_store_1_1_model_1_1_d_a_l_a2a16f122db8e86f86a8b21fffffec3ef}{Execute\+Stored\+Procedure\+Non\+Query} (string name, string\mbox{[}$\,$\mbox{]} parameter\+Names, string\mbox{[}$\,$\mbox{]} parameter\+Values)
+\begin{DoxyCompactList}\small\item\em Executes a stored procedure that doesn't have any otuput parameters. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_a4966b46d96f1ef56313015457f72e7ca}{string {\bfseries m\+\_\+\+Connection\+String} = \char`\"{}Data Source=M\+A\+T\+T\+Y\+Y-\/P\+C;Initial Catalog=Tune\+Store;Integrated Security=S\+S\+P\+I\char`\"{}}\label{class_tune_store_1_1_model_1_1_d_a_l_a4966b46d96f1ef56313015457f72e7ca}
+
+\item 
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_aae6028ff60c0a0103a096e870ce097d0}{Sql\+Command {\bfseries m\+\_\+\+Command}}\label{class_tune_store_1_1_model_1_1_d_a_l_aae6028ff60c0a0103a096e870ce097d0}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_a10ca522dc93f490d832ef98c7770ed7b}{static bool {\bfseries Connected}}\label{class_tune_store_1_1_model_1_1_d_a_l_a10ca522dc93f490d832ef98c7770ed7b}
+
+\item 
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_a185064dd52f541717750cd3de77b0ddd}{static bool {\bfseries Connection\+Created}}\label{class_tune_store_1_1_model_1_1_d_a_l_a185064dd52f541717750cd3de77b0ddd}
+
+\item 
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_af14bf3278fe3c80fa06b315ed5e93523}{static Sql\+Connection {\bfseries m\+\_\+\+Connection}}\label{class_tune_store_1_1_model_1_1_d_a_l_af14bf3278fe3c80fa06b315ed5e93523}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data access layer superclass of model classes 
+
+
+
+Definition at line 17 of file D\+A\+L.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_ac8f347f0d27aeadc61bc341276664290}{\index{Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}!Close\+Data\+Reader@{Close\+Data\+Reader}}
+\index{Close\+Data\+Reader@{Close\+Data\+Reader}!Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}}
+\subsubsection[{Close\+Data\+Reader}]{\setlength{\rightskip}{0pt plus 5cm}void Tune\+Store.\+Model.\+D\+A\+L.\+Close\+Data\+Reader (
+\begin{DoxyParamCaption}
+\item[{Sql\+Data\+Reader}]{rdr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tune_store_1_1_model_1_1_d_a_l_ac8f347f0d27aeadc61bc341276664290}
+
+
+Closes the data reader given as a parameter, and also closes the connection 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rdr} & The Sql\+Data\+Reader to be closed\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 172 of file D\+A\+L.\+cs.
+
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_ab31c1978d9d09f57793cf307807bc577}{\index{Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}!Create\+Connection@{Create\+Connection}}
+\index{Create\+Connection@{Create\+Connection}!Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}}
+\subsubsection[{Create\+Connection}]{\setlength{\rightskip}{0pt plus 5cm}bool Tune\+Store.\+Model.\+D\+A\+L.\+Create\+Connection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tune_store_1_1_model_1_1_d_a_l_ab31c1978d9d09f57793cf307807bc577}
+
+
+Creates a new Database Connection 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 48 of file D\+A\+L.\+cs.
+
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_a50bce22a6e2222ef51e1d79d1cb1da18}{\index{Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}!Execute\+Non\+Query@{Execute\+Non\+Query}}
+\index{Execute\+Non\+Query@{Execute\+Non\+Query}!Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}}
+\subsubsection[{Execute\+Non\+Query}]{\setlength{\rightskip}{0pt plus 5cm}string Tune\+Store.\+Model.\+D\+A\+L.\+Execute\+Non\+Query (
+\begin{DoxyParamCaption}
+\item[{string}]{command}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tune_store_1_1_model_1_1_d_a_l_a50bce22a6e2222ef51e1d79d1cb1da18}
+
+
+Executes a given insert/update/delete command, and returns an error message. (errormessage is \char`\"{}\+O\+K\char`\"{} if no exception occured) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em command} & The command to be executed\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 184 of file D\+A\+L.\+cs.
+
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_a084bc2866f85d34bdd6d4ece7f9472e3}{\index{Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}!Execute\+Reader@{Execute\+Reader}}
+\index{Execute\+Reader@{Execute\+Reader}!Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}}
+\subsubsection[{Execute\+Reader}]{\setlength{\rightskip}{0pt plus 5cm}Sql\+Data\+Reader Tune\+Store.\+Model.\+D\+A\+L.\+Execute\+Reader (
+\begin{DoxyParamCaption}
+\item[{string}]{query, }
+\item[{ref string}]{error\+Message}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tune_store_1_1_model_1_1_d_a_l_a084bc2866f85d34bdd6d4ece7f9472e3}
+
+
+Executes a given query, and returns the result in a datareader 
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & The query to be executed \\
+\hline
+{\em error\+Message} & Output error message \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 149 of file D\+A\+L.\+cs.
+
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_ad29e5842a6d4df190309dab55aaa6cb7}{\index{Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}!Execute\+Scalar@{Execute\+Scalar}}
+\index{Execute\+Scalar@{Execute\+Scalar}!Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}}
+\subsubsection[{Execute\+Scalar}]{\setlength{\rightskip}{0pt plus 5cm}object Tune\+Store.\+Model.\+D\+A\+L.\+Execute\+Scalar (
+\begin{DoxyParamCaption}
+\item[{string}]{query, }
+\item[{ref string}]{error\+Message}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tune_store_1_1_model_1_1_d_a_l_ad29e5842a6d4df190309dab55aaa6cb7}
+
+
+Execute sql query 
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & Query string\\
+\hline
+{\em error\+Message} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 121 of file D\+A\+L.\+cs.
+
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_a2a16f122db8e86f86a8b21fffffec3ef}{\index{Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}!Execute\+Stored\+Procedure\+Non\+Query@{Execute\+Stored\+Procedure\+Non\+Query}}
+\index{Execute\+Stored\+Procedure\+Non\+Query@{Execute\+Stored\+Procedure\+Non\+Query}!Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}}
+\subsubsection[{Execute\+Stored\+Procedure\+Non\+Query}]{\setlength{\rightskip}{0pt plus 5cm}string Tune\+Store.\+Model.\+D\+A\+L.\+Execute\+Stored\+Procedure\+Non\+Query (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{string\mbox{[}$\,$\mbox{]}}]{parameter\+Names, }
+\item[{string\mbox{[}$\,$\mbox{]}}]{parameter\+Values}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tune_store_1_1_model_1_1_d_a_l_a2a16f122db8e86f86a8b21fffffec3ef}
+
+
+Executes a stored procedure that doesn't have any otuput parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the stored procedure\\
+\hline
+{\em parameter\+Names} & The list of the parameter names\\
+\hline
+{\em parameter\+Values} & The list of the parameter values\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 213 of file D\+A\+L.\+cs.
+
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_abc0363548c4a5260b488da0180643388}{\index{Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}!M\+D5\+Hash@{M\+D5\+Hash}}
+\index{M\+D5\+Hash@{M\+D5\+Hash}!Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}}
+\subsubsection[{M\+D5\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}static string Tune\+Store.\+Model.\+D\+A\+L.\+M\+D5\+Hash (
+\begin{DoxyParamCaption}
+\item[{string}]{text}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tune_store_1_1_model_1_1_d_a_l_abc0363548c4a5260b488da0180643388}
+
+
+String to M\+D5 hash generator 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 245 of file D\+A\+L.\+cs.
+
+\hypertarget{class_tune_store_1_1_model_1_1_d_a_l_a95012ed2fb7e4242eb95199315a86eaf}{\index{Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}!Open\+Connection@{Open\+Connection}}
+\index{Open\+Connection@{Open\+Connection}!Tune\+Store\+::\+Model\+::\+D\+A\+L@{Tune\+Store\+::\+Model\+::\+D\+A\+L}}
+\subsubsection[{Open\+Connection}]{\setlength{\rightskip}{0pt plus 5cm}bool Tune\+Store.\+Model.\+D\+A\+L.\+Open\+Connection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tune_store_1_1_model_1_1_d_a_l_a95012ed2fb7e4242eb95199315a86eaf}
+
+
+Open the Connection when the state is not already open. 
+
+
+
+Definition at line 79 of file D\+A\+L.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Tune\+Store/\+Model/D\+A\+L.\+cs\end{DoxyCompactItemize}

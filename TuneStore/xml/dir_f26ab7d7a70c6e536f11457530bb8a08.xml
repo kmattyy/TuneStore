@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_f26ab7d7a70c6e536f11457530bb8a08" kind="dir">
+    <compoundname>TuneStore/Controller</compoundname>
+    <innerfile refid="_tracks_controller_8cs">TracksController.cs</innerfile>
+    <innerfile refid="_user_controller_8cs">UserController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/"/>
+  </compounddef>
+</doxygen>

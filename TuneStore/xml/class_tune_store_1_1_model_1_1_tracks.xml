@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_tune_store_1_1_model_1_1_tracks" kind="class" prot="public">
+    <compoundname>TuneStore::Model::Tracks</compoundname>
+    <basecompoundref refid="class_tune_store_1_1_model_1_1_d_a_l" prot="public" virt="non-virtual">TuneStore.Model.DAL</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tune_store_1_1_model_1_1_tracks_1a586205c33d2a517731405bedb3d0ad41" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TuneStore.Model.Tracks.userID</definition>
+        <argsstring></argsstring>
+        <name>userID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="19" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1ac5ca23ca4329b7a9f060d6307275e052" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TuneStore.Model.Tracks.Tracks</definition>
+        <argsstring>(int Id)</argsstring>
+        <name>Tracks</name>
+        <param>
+          <type>int</type>
+          <declname>Id</declname>
+        </param>
+        <briefdescription>
+<para>Constructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_tune_store_1_1_model_1_1_user" kindref="compound">User</ref> identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="25" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1ab86f9768aa3f019fde99e3545c1fc5b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DataTable</type>
+        <definition>DataTable TuneStore.Model.Tracks.getDataTable</definition>
+        <argsstring>(String query)</argsstring>
+        <name>getDataTable</name>
+        <param>
+          <type>String</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Get a DataTable from given query </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>DataTable with requested tracks</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="35" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="35" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1a99770d353dc98772b4d24a7eaf90c831" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string TuneStore.Model.Tracks.getFilterString</definition>
+        <argsstring>(string artist, string album, string title, string genre, string key)</argsstring>
+        <name>getFilterString</name>
+        <param>
+          <type>string</type>
+          <declname>artist</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>album</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>genre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Get query string from given filtering parameters </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>artist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Artist Name</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>album</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Album Title</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Track Title</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Genre name</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Sql query string</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="70" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="70" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1a853dec2aba371bec77a9fb2bc84e1c3a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DataRow</type>
+        <definition>DataRow TuneStore.Model.Tracks.getTrackInfo</definition>
+        <argsstring>(int trackid)</argsstring>
+        <name>getTrackInfo</name>
+        <param>
+          <type>int</type>
+          <declname>trackid</declname>
+        </param>
+        <briefdescription>
+<para>Get a track information </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trackid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Track identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A DataRow with track informations</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="107" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="107" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1a7451799c8aed2e60eff01a8f9f504f61" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Image</type>
+        <definition>Image TuneStore.Model.Tracks.fillPictureBox</definition>
+        <argsstring>(int trackid)</argsstring>
+        <name>fillPictureBox</name>
+        <param>
+          <type>int</type>
+          <declname>trackid</declname>
+        </param>
+        <briefdescription>
+<para>Get track artwork image from given id </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trackid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Track identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Image object</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="134" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="134" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1a0869cfa0237d54acb4f19b804ab5252b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string TuneStore.Model.Tracks.getTrackPath</definition>
+        <argsstring>(int trackid)</argsstring>
+        <name>getTrackPath</name>
+        <param>
+          <type>int</type>
+          <declname>trackid</declname>
+        </param>
+        <briefdescription>
+<para>Get file path </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trackid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Track identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="169" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="169" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1ab4d48321c3a87713b85e636730ada2bf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Model.Tracks.addToCart</definition>
+        <argsstring>(int uid, int trid)</argsstring>
+        <name>addToCart</name>
+        <param>
+          <type>int</type>
+          <declname>uid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>trid</declname>
+        </param>
+        <briefdescription>
+<para>Insert track to user&apos;s cart </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_tune_store_1_1_model_1_1_user" kindref="compound">User</ref> identifier</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>trid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Track identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="196" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="196" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1ad8ec8a1c7c3035600ab942eb274b9490" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Model.Tracks.checkoutCart</definition>
+        <argsstring>(int userid)</argsstring>
+        <name>checkoutCart</name>
+        <param>
+          <type>int</type>
+          <declname>userid</declname>
+        </param>
+        <briefdescription>
+<para>Checkout user&apos;s cart </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_tune_store_1_1_model_1_1_user" kindref="compound">User</ref> identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="245" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="245" bodyend="281"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1af7179979f6a5fe5c8c96e3c3060ede64" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string TuneStore.Model.Tracks.getCart</definition>
+        <argsstring>(int userId)</argsstring>
+        <name>getCart</name>
+        <param>
+          <type>int</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription>
+<para>Get tracks in user&apos;s cart </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>UserIdentifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Sql command for retrieving tracks</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="218" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="218" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_tracks_1a728f324a524b8759a0130e8f3928c424" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string TuneStore.Model.Tracks.getUserTracks</definition>
+        <argsstring>(int userId)</argsstring>
+        <name>getUserTracks</name>
+        <param>
+          <type>int</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription>
+<para>Get tracks purchased or uploaded by the user </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_tune_store_1_1_model_1_1_user" kindref="compound">User</ref> identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Sql command string</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="231" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="231" bodyend="239"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_tune_store_1_1_model_1_1_tracks" kindref="compound">Tracks</ref> access layer </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="26">
+        <label>DAL</label>
+        <link refid="class_tune_store_1_1_model_1_1_d_a_l"/>
+      </node>
+      <node id="25">
+        <label>TuneStore.Model.Tracks</label>
+        <link refid="class_tune_store_1_1_model_1_1_tracks"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="28">
+        <label>DAL</label>
+        <link refid="class_tune_store_1_1_model_1_1_d_a_l"/>
+      </node>
+      <node id="27">
+        <label>TuneStore.Model.Tracks</label>
+        <link refid="class_tune_store_1_1_model_1_1_tracks"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" line="18" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Tracks.cs" bodystart="17" bodyend="282"/>
+    <listofallmembers>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1ab4d48321c3a87713b85e636730ada2bf" prot="package" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>addToCart</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1ad8ec8a1c7c3035600ab942eb274b9490" prot="package" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>checkoutCart</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ab4b3fd9381bfd0261579678d4c4a5802" prot="package" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>CloseConnection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ac8f347f0d27aeadc61bc341276664290" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>CloseDataReader</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a10ca522dc93f490d832ef98c7770ed7b" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>Connected</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a185064dd52f541717750cd3de77b0ddd" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>ConnectionCreated</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ab31c1978d9d09f57793cf307807bc577" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>CreateConnection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a50bce22a6e2222ef51e1d79d1cb1da18" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>ExecuteNonQuery</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a084bc2866f85d34bdd6d4ece7f9472e3" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>ExecuteReader</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ad29e5842a6d4df190309dab55aaa6cb7" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>ExecuteScalar</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a2a16f122db8e86f86a8b21fffffec3ef" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>ExecuteStoredProcedureNonQuery</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1a7451799c8aed2e60eff01a8f9f504f61" prot="package" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>fillPictureBox</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1af7179979f6a5fe5c8c96e3c3060ede64" prot="package" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>getCart</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a95b31c4a1c14fda499a962abf81df3c5" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>GetConnection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1ab86f9768aa3f019fde99e3545c1fc5b2" prot="public" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>getDataTable</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1a99770d353dc98772b4d24a7eaf90c831" prot="public" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>getFilterString</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1a853dec2aba371bec77a9fb2bc84e1c3a" prot="package" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>getTrackInfo</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1a0869cfa0237d54acb4f19b804ab5252b" prot="package" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>getTrackPath</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1a728f324a524b8759a0130e8f3928c424" prot="package" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>getUserTracks</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ac7f3fcd580550051af6d55ad6f60b4d6" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>IsConnectCreated</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1afbed4e1710000cf02ff78502fc129e91" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>IsConnected</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1aae6028ff60c0a0103a096e870ce097d0" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>m_Command</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1af14bf3278fe3c80fa06b315ed5e93523" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>m_Connection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a4966b46d96f1ef56313015457f72e7ca" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>m_ConnectionString</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1abc0363548c4a5260b488da0180643388" prot="public" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>MD5Hash</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a95012ed2fb7e4242eb95199315a86eaf" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>OpenConnection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1ac5ca23ca4329b7a9f060d6307275e052" prot="public" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>Tracks</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_tracks_1a586205c33d2a517731405bedb3d0ad41" prot="private" virt="non-virtual"><scope>TuneStore::Model::Tracks</scope><name>userID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

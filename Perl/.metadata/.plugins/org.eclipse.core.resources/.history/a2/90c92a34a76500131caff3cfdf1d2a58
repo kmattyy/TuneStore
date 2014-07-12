@@ -1,0 +1,154 @@
+package Insert;
+
+use DBI;
+use strict;
+use warnings;
+use MP3::Tag;
+use MP3::Info;
+
+#our $string="dbi:ODBC:dsn=project;Database=projecttest;Trusted_Connection=Yes";
+
+our $mssql_dbh;
+
+ #= DBI -> connect($string) or die "\n\nthe mssql connection died with the following error: \n\n$DBI::errstr\n\n";
+#print "Success!!";
+
+sub new{
+	
+   my($class, %args) = @_;
+ 
+   my $self = bless({}, $class);
+ 
+   my $db = exists $args{dbconnection} or die "\n No dbconnection!";
+   $mssql_dbh =$args{dbconnection};
+   #print $mssql_dbh."\n";
+   #print"Insert obj OK!\n";
+   return $self;	
+}
+
+#album artist cover genre path tag tracks
+sub InsertTrack {
+	my $self=shift;
+    my $file=shift;
+    my $mp3 = MP3::Tag->new($file);
+    $mp3->get_tags;
+    
+    if (exists $mp3->{ID3v2}) {
+       # read some information from the tag
+       my $name;
+       my $info;
+     ($name, $info) = $mp3->{ID3v2}->get_frame("TPE1"); #artist
+      my $artistid=$self->InsertArtist($name);  
+      print $artistid." szsadas\n";
+      
+      
+     ($name, $info) = $mp3->{ID3v2}->get_frame("TDRC");#year
+     ($name, $info) = $mp3->{ID3v2}->get_frame("TALB"); #album
+     
+     ($name, $info) = $mp3->{ID3v2}->get_frame("TCON"); #genre
+     ($name, $info) = $mp3->{ID3v2}->get_frame("TIT2"); #title
+     ($name, $info) = $mp3->{ID3v2}->get_frame("TBPM"); #BPM
+     ($name, $info) = $mp3->{ID3v2}->get_frame("APIC"); #cover
+     
+    #  print $name."\n ".$info."\n";
+   # $self->InsertArtist($name);
+      # delete the tag completely from the file
+       #$mp3->{ID3v2}->remove_tag;
+   } else {
+       # create a new tag
+       $mp3->new_tag("ID3v2");
+       $mp3->{ID3v2}->add_frame("TALB", "Album title");
+       $mp3->{ID3v2}->write_tag;
+   }
+ 
+
+}
+
+sub InsertArtist{
+	my $self=shift;
+    my $artist=shift;
+   
+	my $id=$self->getArtistId($artist);
+	
+	 if($id=0){
+	    $sth->bind_columns(undef,\$id);
+	    $sth->fetch();
+	    print $id." tada \n";
+	 }
+    
+   else{
+   
+	  $myquery = "Insert into artists(name,birthdate) values(?,GETDATE())";
+	  $sth = $mssql_dbh->prepare($myquery);
+
+	$sth->execute($artist)
+	 or die "SQL Error: $DBI::errstr\n";
+	
+}
+
+sub getArtistId{
+	
+	my $self=shift;
+    my $artist=shift;
+    my $id;
+	 
+	my $myquery = "select artistid from artists where name=?";
+    
+    my $sth = $mssql_dbh->prepare($myquery);
+
+	$sth->execute($artist)
+	 or die "SQL Error: $DBI::errstr\n";
+	if($sth->rows){
+      $sth->bind_columns(undef,\$id);
+	  $sth->fetch();
+	}
+	else{
+		$id=0;
+	}
+ 
+ return $id;
+}
+
+
+=CUT
+
+sub InsertPicture{
+	my $self=shift;
+    my $picture=shift;
+    
+=com  
+     my $myquery = "SELECT picture FROM pictures where picid=1";
+ 
+ my $sth = $mssql_dbh->prepare($myquery);
+
+$sth->execute()
+ or die "SQL Error: $DBI::errstr\n";
+ 
+ if (my @row = $sth->fetchrow_array) {
+ print "@row\n";
+ open (SAVE, ">out.jpg");
+ binmode SAVE;
+ print SAVE @row->{_Data};
+ close SAVE;
+
+ 
+ } 
+  else{
+    	 my $myquery = "Insert into pictures(picture) values(?)";
+	 my $sth = $mssql_dbh->prepare($myquery);
+
+	$sth->execute($picture->{_Data})
+	 or die "SQL Error: $DBI::errstr\n";
+ 
+    	
+    }
+    
+    
+    
+	
+ return $sth;
+}
+
+=cut
+
+return 1;

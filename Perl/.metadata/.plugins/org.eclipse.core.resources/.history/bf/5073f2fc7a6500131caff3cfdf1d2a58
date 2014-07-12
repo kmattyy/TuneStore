@@ -1,0 +1,74 @@
+package Insert;
+
+use DBI;
+use strict;
+use warnings;
+use MP3::Tag;
+use MP3::Info;
+
+#our $string="dbi:ODBC:dsn=project;Database=projecttest;Trusted_Connection=Yes";
+
+our $mssql_dbh;
+
+ #= DBI -> connect($string) or die "\n\nthe mssql connection died with the following error: \n\n$DBI::errstr\n\n";
+#print "Success!!";
+
+sub new{
+	
+   my($class, %args) = @_;
+ 
+   my $self = bless({}, $class);
+ 
+   my $db = exists $args{dbconnection} or die "\n No dbconnection!";
+   $mssql_dbh =$args{dbconnection};
+   #print $mssql_dbh."\n";
+   #print"Insert obj OK!\n";
+   return $self;	
+}
+
+#album artist cover genre path tag tracks
+sub InsertTrack {
+	my $self=shift;
+    my $file=shift;
+    my $mp3 = MP3::Tag->new($file);
+    $mp3->get_tags;
+    
+    if (exists $mp3->{ID3v2}) {
+       # read some information from the tag
+       my $name;
+       my $info;
+      ($name, $info) = $mp3->{ID3v2}->get_frame("TBPM");
+      print $name."\n ".$info."\n";
+      # delete the tag completely from the file
+       #$mp3->{ID3v2}->remove_tag;
+   } else {
+       # create a new tag
+       $mp3->new_tag("ID3v2");
+       $mp3->{ID3v2}->add_frame("TALB", "Album title");
+       $mp3->{ID3v2}->write_tag;
+   }
+ 
+ 
+ 
+ 
+ 
+    ## ($title, $track, $artist, $album, $comment, $year, $genre)
+   ## my @infos = $mp3->autoinfo();
+  #  foreach(@infos){
+   #    print $_ . "\n";
+#	}
+}
+
+sub InsertArtist{
+	 my $myquery = "Insert into artists(name,birthdate) values('Zsoltika',GETDATE())";
+	 my $sth = $mssql_dbh->prepare($myquery);
+
+	$sth->execute
+	 or die "SQL Error: $DBI::errstr\n";
+ 
+ return $sth;
+}
+
+
+
+return 1;

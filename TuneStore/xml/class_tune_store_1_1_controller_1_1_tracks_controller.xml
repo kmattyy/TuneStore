@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_tune_store_1_1_controller_1_1_tracks_controller" kind="class" prot="public">
+    <compoundname>TuneStore::Controller::TracksController</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tune_store_1_1_controller_1_1_tracks_controller_1a8fcf74a33b472aaf6258e36dbab038db" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TuneStore.Controller.TracksController.userId</definition>
+        <argsstring></argsstring>
+        <name>userId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="18" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_controller_1_1_tracks_controller_1a586f14126f46518976f7b3fa26f6fbcb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tune_store_1_1_main_frame" kindref="compound">MainFrame</ref></type>
+        <definition>MainFrame TuneStore.Controller.TracksController.myViewFrame</definition>
+        <argsstring></argsstring>
+        <name>myViewFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="19" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_controller_1_1_tracks_controller_1aeebbfe28c35ad2f567be8262ea777dfd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tune_store_1_1_controller_1_1_user_controller" kindref="compound">UserController</ref></type>
+        <definition>UserController TuneStore.Controller.TracksController.myUserController</definition>
+        <argsstring></argsstring>
+        <name>myUserController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="20" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_controller_1_1_tracks_controller_1a1f39e6e91198d553f7fb2aecb2635c1b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tune_store_1_1_model_1_1_tracks" kindref="compound">Tracks</ref></type>
+        <definition>Tracks TuneStore.Controller.TracksController.myTracks</definition>
+        <argsstring></argsstring>
+        <name>myTracks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="21" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1aeefb43f2ed0910ff16b03c2668550ec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TuneStore.Controller.TracksController.TracksController</definition>
+        <argsstring>(MainFrame mf, UserController uc)</argsstring>
+        <name>TracksController</name>
+        <param>
+          <type><ref refid="class_tune_store_1_1_main_frame" kindref="compound">MainFrame</ref></type>
+          <declname>mf</declname>
+        </param>
+        <param>
+          <type><ref refid="class_tune_store_1_1_controller_1_1_user_controller" kindref="compound">UserController</ref></type>
+          <declname>uc</declname>
+        </param>
+        <briefdescription>
+<para>Class constructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>View form</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="namespace_tune_store_1_1_controller" kindref="compound">Controller</ref> for logged in user</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="28" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="28" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1a8587b9e398be88b4692deda971f8b17b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.TracksController.setFilters</definition>
+        <argsstring>(string artist, string album, string title, string genre, string key)</argsstring>
+        <name>setFilters</name>
+        <param>
+          <type>string</type>
+          <declname>artist</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>album</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>genre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Getting tracks by parameters given by the user and filling the grid. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>artist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Artist name</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>album</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Album title</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Track title</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Genre name</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key value</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="46" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="46" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1a9340b96f68e303c1dfb23cc2a5f131bb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.TracksController.setInfoLabels</definition>
+        <argsstring>(int trackid)</argsstring>
+        <name>setInfoLabels</name>
+        <param>
+          <type>int</type>
+          <declname>trackid</declname>
+        </param>
+        <briefdescription>
+<para>Getting informations about track and setting information labels </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trackid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Track identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="57" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1accdc73f403ea306174bfc21b4bd51504" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.TracksController.setArtworkbox</definition>
+        <argsstring>(int trackid)</argsstring>
+        <name>setArtworkbox</name>
+        <param>
+          <type>int</type>
+          <declname>trackid</declname>
+        </param>
+        <briefdescription>
+<para>Loading track artwork picture </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trackid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Track identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="66" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1a864826016ae4e397466466d2fcc524ed" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string TuneStore.Controller.TracksController.getTrackPath</definition>
+        <argsstring>(int trid)</argsstring>
+        <name>getTrackPath</name>
+        <param>
+          <type>int</type>
+          <declname>trid</declname>
+        </param>
+        <briefdescription>
+<para>Getting track path for player </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trid</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>File path string</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="77" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="77" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1ace07ee5e3fc59c168528f0298d44a63e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.TracksController.setUserId</definition>
+        <argsstring>(int userid)</argsstring>
+        <name>setUserId</name>
+        <param>
+          <type>int</type>
+          <declname>userid</declname>
+        </param>
+        <briefdescription>
+<para>User identifier setter </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>User identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="88" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1a11b19f08397d55f5b99e92f34662a590" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.TracksController.addToCart</definition>
+        <argsstring>(int uid, int trid)</argsstring>
+        <name>addToCart</name>
+        <param>
+          <type>int</type>
+          <declname>uid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>trid</declname>
+        </param>
+        <briefdescription>
+<para>Cart add action </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>User identifier</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>trid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Track identifier</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="97" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1ae14a349463e0192e1df6f95500526958" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.TracksController.fillCartGrid</definition>
+        <argsstring>()</argsstring>
+        <name>fillCartGrid</name>
+        <briefdescription>
+<para>Filling user cart grid </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="106" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="106" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1ad58ff2e6fdbd73f0b11db7b206cb2ff0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.TracksController.fillMyTracksGrid</definition>
+        <argsstring>()</argsstring>
+        <name>fillMyTracksGrid</name>
+        <briefdescription>
+<para>Fill tracks purchased(pro users)/uploaded(publisher) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="121" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="121" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_controller_1_1_tracks_controller_1adf1b6b99819b178776dadb63a766cf24" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Controller.TracksController.checkoutCart</definition>
+        <argsstring>()</argsstring>
+        <name>checkoutCart</name>
+        <briefdescription>
+<para>Purchase tracks from cart </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="133" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="133" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Track operations controller </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" line="17" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Controller/TracksController.cs" bodystart="16" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a11b19f08397d55f5b99e92f34662a590" prot="package" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>addToCart</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1adf1b6b99819b178776dadb63a766cf24" prot="package" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>checkoutCart</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1ae14a349463e0192e1df6f95500526958" prot="package" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>fillCartGrid</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1ad58ff2e6fdbd73f0b11db7b206cb2ff0" prot="package" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>fillMyTracksGrid</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a864826016ae4e397466466d2fcc524ed" prot="package" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>getTrackPath</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a1f39e6e91198d553f7fb2aecb2635c1b" prot="private" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>myTracks</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1aeebbfe28c35ad2f567be8262ea777dfd" prot="private" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>myUserController</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a586f14126f46518976f7b3fa26f6fbcb" prot="private" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>myViewFrame</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1accdc73f403ea306174bfc21b4bd51504" prot="package" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>setArtworkbox</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a8587b9e398be88b4692deda971f8b17b" prot="package" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>setFilters</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a9340b96f68e303c1dfb23cc2a5f131bb" prot="package" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>setInfoLabels</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1ace07ee5e3fc59c168528f0298d44a63e" prot="package" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>setUserId</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1aeefb43f2ed0910ff16b03c2668550ec3" prot="public" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>TracksController</name></member>
+      <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a8fcf74a33b472aaf6258e36dbab038db" prot="private" virt="non-virtual"><scope>TuneStore::Controller::TracksController</scope><name>userId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

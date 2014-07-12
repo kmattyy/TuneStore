@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_7ceaab6afe0f9f5dd85e341143e30dce" kind="dir">
+    <compoundname>TuneStore/obj</compoundname>
+    <innerdir refid="dir_1f0af4a1e550fb5edfa693846af873d2">TuneStore/obj/Debug</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/obj/"/>
+  </compounddef>
+</doxygen>

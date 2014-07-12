@@ -1,0 +1,14 @@
+use lib 'D:\Adatbazis\Project\Perl\Adatbazis';
+use DBI;
+use Insert;
+use File::Find::Rule;
+
+#$string = "dbi:ODBC:dsn=project;Database=projecttest;Trusted_Connection=Yes";
+$string = "dbi:ODBC:dsn=project;Trusted_Connection=Yes";
+my $mssql_dbh = DBI->connect($string)
+  or die
+"\n\nThe mssql connection died with the following error: \n\n$DBI::errstr\n\n";
+print "Database connection OK!\n";
+
+#get databases
+#SELECT name FROM sys.databases WHERE CASE WHEN state_desc = 'ONLINE' THEN OBJECT_ID(QUOTENAME(name) + '.[dbo].[tracks]', 'U') END IS NOT NULL

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_tune_store_1_1_program" kind="class" prot="public">
+    <compoundname>TuneStore::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_tune_store_1_1_program_1a122ff0d9469f8d98073a786617ccc24b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TuneStore.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>The main entry point for the application. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Program.cs" line="15" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Program.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Program.cs" line="10" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Program.cs" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_tune_store_1_1_program_1a122ff0d9469f8d98073a786617ccc24b" prot="private" virt="non-virtual"><scope>TuneStore::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

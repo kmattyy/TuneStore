@@ -1,0 +1,630 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TuneStore</name>
+    </assembly>
+    <members>
+        <member name="T:TuneStore.Controller.TracksController">
+            <summary>
+            Track operations controller
+            </summary>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.#ctor(TuneStore.MainFrame,TuneStore.Controller.UserController)">
+            <summary>
+            Class constructor
+            </summary>
+            <param name="mf">View form</param>
+            <param name="uc">Controller for logged in user</param>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.setFilters(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Getting tracks by parameters given by the user and filling the grid. 
+            </summary>
+            <param name="artist">Artist name</param>
+            <param name="album">Album title</param>
+            <param name="title">Track title</param>
+            <param name="genre">Genre name</param>
+            <param name="key">Key value</param>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.setInfoLabels(System.Int32)">
+            <summary>
+            Getting informations about track and setting information labels
+            </summary>
+            <param name="trackid">Track identifier</param>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.setArtworkbox(System.Int32)">
+            <summary>
+            Loading track artwork picture
+            </summary>
+            <param name="trackid">Track identifier</param>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.getTrackPath(System.Int32)">
+            <summary>
+            Getting track path for player
+            </summary>
+            <param name="trid"></param>
+            <returns>File path string</returns>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.setUserId(System.Int32)">
+            <summary>
+            User identifier setter
+            </summary>
+            <param name="userid">User identifier</param>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.addToCart(System.Int32,System.Int32)">
+            <summary>
+            Cart add action
+            </summary>
+            <param name="uid">User identifier</param>
+            <param name="trid">Track identifier</param>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.fillCartGrid">
+            <summary>
+            Filling user cart grid
+            </summary>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.fillMyTracksGrid">
+            <summary>
+            Fill tracks purchased(pro users)/uploaded(publisher) 
+            </summary>
+        </member>
+        <member name="M:TuneStore.Controller.TracksController.checkoutCart">
+            <summary>
+            Purchase tracks from cart
+            </summary>
+        </member>
+        <member name="T:TuneStore.Controller.UserController">
+            <summary>
+            Controller class for user operations,
+            </summary>
+        </member>
+        <member name="M:TuneStore.Controller.UserController.#ctor(TuneStore.MainFrame)">
+            <summary>
+            Guest user controller constructor
+            </summary>
+            <param name="ts">View frame</param>
+        </member>
+        <member name="M:TuneStore.Controller.UserController.login(System.String,System.String)">
+            <summary>
+            Login user by username and password and set view by user type
+            </summary>
+            <param name="uname">Username</param>
+            <param name="passw">Password</param>
+            <returns>Succesful/Unsuccesful(true/false)</returns>
+        </member>
+        <member name="M:TuneStore.Controller.UserController.logout">
+            <summary>
+            Logout user , set guest view
+            </summary>
+            <returns>True</returns>
+        </member>
+        <member name="M:TuneStore.Controller.UserController.getUserInfromation">
+            <summary>
+            Fill user informations into view
+            </summary>
+        </member>
+        <member name="M:TuneStore.Controller.UserController.registerUser(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Checking information correctness and registering user 
+            </summary>
+            <param name="userinfo"></param>
+        </member>
+        <member name="M:TuneStore.Controller.UserController.getUserId">
+            <summary>
+            User identifier(id) getter
+            </summary>
+            <returns>User identifier(Int)</returns>
+        </member>
+        <member name="M:TuneStore.Controller.UserController.fillwithdrawCredit(System.String,System.String)">
+            <summary>
+            Fill account with credit for pro users/Withdraw for publisher
+            </summary>
+            <param name="amount">Amount of credit</param>
+            <param name="command">Fill/Withdraw</param>
+        </member>
+        <member name="T:TuneStore.Model.DAL">
+            <summary>
+            Data access layer superclass of model classes
+            </summary>
+        </member>
+        <member name="M:TuneStore.Model.DAL.CreateConnection">
+            <summary>
+            Creates a new Database Connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TuneStore.Model.DAL.OpenConnection">
+            <summary>
+            Open the Connection when the state is not already open.
+            </summary>
+        </member>
+        <member name="M:TuneStore.Model.DAL.CloseConnection">
+            <summary>
+            Close the Connection when the connection is opened.
+            </summary>
+        </member>
+        <member name="M:TuneStore.Model.DAL.ExecuteScalar(System.String,System.String@)">
+            <summary>
+            Execute sql query
+            </summary>
+            <param name="query">Query string</param>
+            <param name="errorMessage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TuneStore.Model.DAL.ExecuteReader(System.String,System.String@)">
+            <summary>
+            Executes a given query, and returns the result in a datareader
+            </summary>
+            <param name="query"> The query to be executed </param>
+            <param name="errorMessage"> Output error message </param>
+            <returns></returns>
+        </member>
+        <member name="M:TuneStore.Model.DAL.CloseDataReader(System.Data.SqlClient.SqlDataReader)">
+            <summary>
+            Closes the data reader given as a parameter, and also closes the connection
+            </summary>
+            <param name="rdr">The SqlDataReader to be closed</param>
+        </member>
+        <member name="M:TuneStore.Model.DAL.ExecuteNonQuery(System.String)">
+            <summary>
+            Executes a given insert/update/delete command, and returns an error message. 
+            (errormessage is "OK" if no exception occured)
+            </summary>
+            <param name="command">The command to be executed</param>
+        </member>
+        <member name="M:TuneStore.Model.DAL.ExecuteStoredProcedureNonQuery(System.String,System.String[],System.String[])">
+            <summary>
+            Executes a stored procedure that doesn't have any otuput parameters.
+            </summary>
+            <param name="name">The name of the stored procedure</param>
+            <param name="parameterNames">The list of the parameter names</param>
+            <param name="parameterValues">The list of the parameter values</param>
+            <returns></returns>
+        </member>
+        <member name="M:TuneStore.Model.DAL.MD5Hash(System.String)">
+            <summary>
+            String to MD5 hash generator
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TuneStore.Model.Login">
+            <summary>
+            User login on model layer
+            </summary>
+        </member>
+        <member name="M:TuneStore.Model.Login.#ctor(System.String,System.String)">
+            <summary>
+            Constructor 
+            </summary>
+            <param name="name">Username</param>
+            <param name="pass">Password</param>
+        </member>
+        <member name="T:TuneStore.Model.Tracks">
+            <summary>
+            Tracks access layer
+            </summary>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.#ctor(System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="Id">User identifier</param>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.getDataTable(System.String)">
+            <summary>
+            Get a DataTable from given query
+            </summary>
+            <param name="query"></param>
+            <returns>DataTable with requested tracks</returns>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.getFilterString(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Get query string from given filtering parameters
+            </summary>
+            <param name="artist">Artist Name</param>
+            <param name="album">Album Title</param>
+            <param name="title">Track Title</param>
+            <param name="genre">Genre name</param>
+            <param name="key">Key</param>
+            <returns>Sql query string</returns>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.getTrackInfo(System.Int32)">
+            <summary>
+            Get a track information
+            </summary>
+            <param name="trackid">Track identifier</param>
+            <returns>A DataRow with track informations</returns>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.fillPictureBox(System.Int32)">
+            <summary>
+            Get track artwork image from given id
+            </summary>
+            <param name="trackid">Track identifier</param>
+            <returns>Image object</returns>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.getTrackPath(System.Int32)">
+            <summary>
+            Get file path 
+            </summary>
+            <param name="trackid">Track identifier</param>
+            <returns></returns>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.addToCart(System.Int32,System.Int32)">
+            <summary>
+            Insert track to user's cart
+            </summary>
+            <param name="uid">User identifier</param>
+            <param name="trid">Track identifier</param>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.getCart(System.Int32)">
+            <summary>
+            Get tracks in user's cart 
+            </summary>
+            <param name="userId">UserIdentifier</param>
+            <returns>Sql command for retrieving tracks</returns>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.getUserTracks(System.Int32)">
+            <summary>
+            Get tracks purchased or uploaded by the user
+            </summary>
+            <param name="userId">User identifier</param>
+            <returns>Sql command string</returns>
+        </member>
+        <member name="M:TuneStore.Model.Tracks.checkoutCart(System.Int32)">
+            <summary>
+            Checkout user's cart 
+            </summary>
+            <param name="userid">User identifier</param>
+        </member>
+        <member name="T:TuneStore.Model.User">
+            <summary>
+            User registration into database,user information modifying
+            </summary>
+        </member>
+        <member name="M:TuneStore.Model.User.#ctor(System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="uID">UserID</param>
+        </member>
+        <member name="M:TuneStore.Model.User.registerUser(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Register user
+            </summary>
+            <param name="regval">Dictionary containing Fieldname-Value</param>
+            <returns>Successful/Unsuccessful registration</returns>
+        </member>
+        <member name="M:TuneStore.Model.User.getUsertype(System.String)">
+            <summary>
+            Get user group id
+            </summary>
+            <param name="p"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TuneStore.Model.User.isAlreadyregistered(System.String)">
+            <summary>
+            Checking if is user already registered with given e-mail address
+            </summary>
+            <param name="email"></param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:TuneStore.Model.User.fillwithdraw(System.Int32,System.String)">
+            <summary>
+            Add/withdraw credit to/from account
+            </summary>
+            <param name="a">Credit amount</param>
+            <param name="command">Add/Withdraw</param>
+        </member>
+        <member name="T:TuneStore.Runscriptfrm">
+            <summary>
+            A form for running a given script, shows the console and the error output.
+            </summary>
+        </member>
+        <member name="M:TuneStore.Runscriptfrm.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="script">String to script path</param>
+        </member>
+        <member name="M:TuneStore.Runscriptfrm.Runscriptfrm_Load(System.Object,System.EventArgs)">
+            <summary>
+            Form load
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.Runscriptfrm.startButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Start action 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.Runscriptfrm.errorOutputHandler(System.Object,System.Diagnostics.DataReceivedEventArgs)">
+            <summary>
+            Writing  error output
+            </summary>
+            <param name="sender"></param>
+            <param name="outLine"></param>
+        </member>
+        <member name="M:TuneStore.Runscriptfrm.consoleOutputHandler(System.Object,System.Diagnostics.DataReceivedEventArgs)">
+            <summary>
+            Writing console output
+            </summary>
+            <param name="sender"></param>
+            <param name="outLine"></param>
+        </member>
+        <member name="M:TuneStore.Runscriptfrm.doneBut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Close form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TuneStore.Runscriptfrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TuneStore.Runscriptfrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TuneStore.Runscriptfrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TuneStore.MainFrame">
+            <summary>
+            Main form, the view layer
+            </summary>
+        </member>
+        <member name="F:TuneStore.MainFrame.TabColors">
+            page-colors dictionary
+        </member>
+        <member name="M:TuneStore.MainFrame.#ctor">
+            <summary>
+            Main Frame constructor
+            </summary>
+        </member>
+        <member name="M:TuneStore.MainFrame.fillTracksGrid">
+            <summary>
+            Request controller for tracks on tracks page(tab)
+            </summary>
+        </member>
+        <member name="M:TuneStore.MainFrame.fillTracksGrid(System.Data.DataTable)">
+            <summary>
+            Fill tracks grid with DataTable, Invoked by controller 
+            </summary>
+            <param name="dt">DataTable with tracks data</param>
+        </member>
+        <member name="M:TuneStore.MainFrame.fillCartGrid">
+            <summary>
+            Request cart grid fill from controller
+            </summary>
+        </member>
+        <member name="M:TuneStore.MainFrame.fillCartGrid(System.Data.DataTable)">
+            <summary>
+            Controller invoked cart grid fill
+            </summary>
+            <param name="dt">DataTable with tracks data</param>
+        </member>
+        <member name="M:TuneStore.MainFrame.SetTabHeader(System.Windows.Forms.TabPage,System.Drawing.Color)">
+            <summary>
+            Setting tab color
+            </summary>
+            <param name="page">Tab page</param>
+            <param name="color">Color</param>
+        </member>
+        <member name="M:TuneStore.MainFrame.tracksControl_DrawItem(System.Object,System.Windows.Forms.DrawItemEventArgs)">
+            <summary>
+            Draw custom tabs
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.MainFrame_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Mouse down event, required for custom form 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.MainFrame_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Mose move event handler,  required for custom form 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.MainFrame_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Mouse up event, required for custom form  
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.CloseButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Custom close button click event handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.loginLabel_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+            <summary>
+            Login event handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.proCheckBox_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            Pro/Free user registration handler.For pro users we need more informations
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.regButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Registration button click handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.publisherCheckBox_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            Publisher registration needs more details 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.setViewByUserType(System.String)">
+            <summary>
+            Setting view by user's group
+            </summary>
+            <param name="utype">User type</param>
+        </member>
+        <member name="M:TuneStore.MainFrame.setGuestViewOptions">
+            <summary>
+            Set view to guest 
+            </summary>
+        </member>
+        <member name="M:TuneStore.MainFrame.fillMyTracksGrid">
+            <summary>
+            Fill grid with user's purchased/added tracks 
+            </summary>
+        </member>
+        <member name="M:TuneStore.MainFrame.setUserandPass(System.String,System.String)">
+            <summary>
+            Automatic login after registration
+            </summary>
+            <param name="p1">Username</param>
+            <param name="p2">Password</param>
+        </member>
+        <member name="M:TuneStore.MainFrame.filterButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Request controller for filtering tracks grid by introduced parameters
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.tracksGrid_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Grid selection changed handler,request track information change from controller
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.setInfoLabels(System.Data.DataRow)">
+            <summary>
+            Show track informations 
+            </summary>
+            <param name="trackinfo"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.setArtworkBox(System.Drawing.Image)">
+            <summary>
+            Show artwork
+            </summary>
+            <param name="i">Artwork image </param>
+        </member>
+        <member name="M:TuneStore.MainFrame.cartGrid_Play(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)">
+            <summary>
+            Request track path for playing
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.cartAddButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Cart add button handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.trackAddButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Single track add button handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.albumAddButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Album add button handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.fillUserTracksGrid(System.Data.DataTable)">
+            <summary>
+            Fill user tracks grid 
+            </summary>
+            <param name="dt"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.cartCheckoutButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Cart checkout button handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.withdrawButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Withdraw credit button handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TuneStore.MainFrame.fillButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Fill account with credit handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TuneStore.MainFrame.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TuneStore.MainFrame.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TuneStore.MainFrame.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:TuneStore.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:TuneStore.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:TuneStore.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:TuneStore.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

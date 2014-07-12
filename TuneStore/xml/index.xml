@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.7">
+  <compound refid="class_tune_store_1_1_model_1_1_d_a_l" kind="class"><name>TuneStore::Model::DAL</name>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a10ca522dc93f490d832ef98c7770ed7b" kind="variable"><name>Connected</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a185064dd52f541717750cd3de77b0ddd" kind="variable"><name>ConnectionCreated</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1af14bf3278fe3c80fa06b315ed5e93523" kind="variable"><name>m_Connection</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a4966b46d96f1ef56313015457f72e7ca" kind="variable"><name>m_ConnectionString</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1aae6028ff60c0a0103a096e870ce097d0" kind="variable"><name>m_Command</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ac7f3fcd580550051af6d55ad6f60b4d6" kind="function"><name>IsConnectCreated</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1afbed4e1710000cf02ff78502fc129e91" kind="function"><name>IsConnected</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a95b31c4a1c14fda499a962abf81df3c5" kind="function"><name>GetConnection</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ab31c1978d9d09f57793cf307807bc577" kind="function"><name>CreateConnection</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a95012ed2fb7e4242eb95199315a86eaf" kind="function"><name>OpenConnection</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ad29e5842a6d4df190309dab55aaa6cb7" kind="function"><name>ExecuteScalar</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a084bc2866f85d34bdd6d4ece7f9472e3" kind="function"><name>ExecuteReader</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ac8f347f0d27aeadc61bc341276664290" kind="function"><name>CloseDataReader</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a50bce22a6e2222ef51e1d79d1cb1da18" kind="function"><name>ExecuteNonQuery</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a2a16f122db8e86f86a8b21fffffec3ef" kind="function"><name>ExecuteStoredProcedureNonQuery</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ab4b3fd9381bfd0261579678d4c4a5802" kind="function"><name>CloseConnection</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_d_a_l_1abc0363548c4a5260b488da0180643388" kind="function"><name>MD5Hash</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_model_1_1_login" kind="class"><name>TuneStore::Model::Login</name>
+    <member refid="class_tune_store_1_1_model_1_1_login_1aae18c7ab7670fa32ee078a0912fdd29e" kind="variable"><name>userId</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_login_1aebed49f7f6e757d809ec19ff90b27a8d" kind="variable"><name>group</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_login_1a6cab707f0091ca10ed6e8493822d42f8" kind="variable"><name>userName</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_login_1a3f9fb2ba7fda5853e9555673dc550c72" kind="variable"><name>loggedIn</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_login_1a184a2123650754b3774309e52d535cc1" kind="function"><name>Login</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_main_frame" kind="class"><name>TuneStore::MainFrame</name>
+    <member refid="class_tune_store_1_1_main_frame_1a2c1e9219138d78f8036c57795f04b80e" kind="variable"><name>mouseOffset</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a91167f205bbd42a99380ec5b01e8bad8" kind="variable"><name>isMouseDown</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aa5b0eb134da35e2e81806100df889747" kind="variable"><name>TabColors</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ac4dbd2fc3af26641ecb9115842d51bbb" kind="variable"><name>myUserController</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a061afb9d1ae65f84b9701d20489e0c4e" kind="variable"><name>myTracksController</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a54c2abbd9fe8e8e425369cab15ba4d39" kind="variable"><name>components</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a87f3e859f8b88e5a3d95063d3d0f0228" kind="variable"><name>CloseButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ae16cfe91e3629fe47eadc0f9313a57cf" kind="variable"><name>tracksPage</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a740bceef158c046c783a3aa7bce298ee" kind="variable"><name>cartPage</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ad6612070bd03626a9c8761578a891723" kind="variable"><name>tracksControl</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1af0ffd7ad4703afc1b5bafb6547943be6" kind="variable"><name>mediaPlayer</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a11a28fc2ec2ccee1d93e0d4fcf684936" kind="variable"><name>usernameLabel</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a19d01b775a5ce688cb7b5c7ae49878e7" kind="variable"><name>passwordLabel</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a2e65944cd7f421c6fff768cb53fac3db" kind="variable"><name>usernameBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a903c27526a644207f7cce0a406119aa9" kind="variable"><name>loginBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ab189c9b0930eb7242adb82ea6c412eba" kind="variable"><name>loginLabel</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a32acd029bd15c5e48ed324f8fddd4311" kind="variable"><name>passwordBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a578395a62eae3cbc45015c7823183760" kind="variable"><name>regTab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a7c7d1f3606243cb8703a62b3253bc388" kind="variable"><name>regTable</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a81a2928f6f1d1ff2e81e752e22b28617" kind="variable"><name>emailBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a714c6cb0edf1d60baca781dd6a9540de" kind="variable"><name>passBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aeaae00935377181d710ffdd2217e26ce" kind="variable"><name>regEmailLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a427d03c5e0d5bceecc2ce65a94fab785" kind="variable"><name>regPassLab2</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ade367ea939cc0c2964bd5f3cb1f7f8fe" kind="variable"><name>regPassLabel</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1af54bf046fcf2078331267aa0c5910ca9" kind="variable"><name>regUsrLabel</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a5ff24d89fc3a89bf15e0941d6463a5b4" kind="variable"><name>birthDatePicker</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a8e9de953306e60cf6a0ae48be14004ac" kind="variable"><name>regBirthLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aaea879583f75acb6ef295a3e0a572143" kind="variable"><name>uNameBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aaba404fab69a1901c566a01f148b6017" kind="variable"><name>pass2Box</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a688a24fb0281653ad429dbe72b1a9cb6" kind="variable"><name>proCheckBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a54d35aa50941dbf2cd9bd69c2f08cc34" kind="variable"><name>regTable2</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a95b00be3bebb28fc290a6f1852ca5e68" kind="variable"><name>lastNameBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a6f5f1110f6dcc858446eca709e42804f" kind="variable"><name>label2</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a5c0f75df862c04012ca3202d288b1aa5" kind="variable"><name>lastNameLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a3b135ce1dbaa4b45f407ce6e553d9c08" kind="variable"><name>firstNamelab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1acf912c5f57cbf5a04e9aabe9ac987419" kind="variable"><name>firstNamebox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1af7bf27a94600b18f3d913048cdf7386b" kind="variable"><name>cardNumBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a9a17cde109e5ad11faf4f758c8f99f3f" kind="variable"><name>expDateLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1af18c2cbcddda2d073e0ca9ed6baabaad" kind="variable"><name>expDateBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a9611e8f585fa04904cd4e731200a8c30" kind="variable"><name>label1</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a26469ec772acbe41896bedf43bcd3c9f" kind="variable"><name>valNumBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1acc5a04d53c3697d0126fb65f0d3380c5" kind="variable"><name>regButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ac87dab7301e3869f3993f9c1799d723c" kind="variable"><name>publisherCheckBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a322494287d051ed57076c85311babe6d" kind="variable"><name>initCreditBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a6ae49efc4c2aaa2cceb645561a0860cc" kind="variable"><name>label3</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aa02e17a443456089d137e8fdd5be0f37" kind="variable"><name>withdrawTable</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a76039e3507fce2f0e537028348ffb3ae" kind="variable"><name>withdrawLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a9daf03246d7604e7101ec361bef8d588" kind="variable"><name>withdrawBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a9e24cf64167aa2b26d3da5ea7d84cdda" kind="variable"><name>withdrawButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ace50e6f3959381abacab67109f8e4fa3" kind="variable"><name>artworkBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1af33b2a4e2cced67e94a3ff45c8845c8e" kind="variable"><name>tableLayoutPanel2</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a039dd634db35d316d5aea341fb307f64" kind="variable"><name>commentInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a8eb2e4e3210fa5833ac05b5440bd0d7f" kind="variable"><name>filenameInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1acc22770ad2b393979a367d6e30cf78b5" kind="variable"><name>pathInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ad4aa19a1b56628cc8c57d41166d22049" kind="variable"><name>qualityInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ac7be994d8fe058fe207289c4716b89af" kind="variable"><name>bpmInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ad26fc85df6e8287eff36e8800bfdef06" kind="variable"><name>yearInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a451ede41bc807b395f9a47a4dee5e226" kind="variable"><name>keyInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a76499f271dcf907e327be654dd2c51e7" kind="variable"><name>genreInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a41c6c6f2c6afa6aa16c23c1ad18cf22d" kind="variable"><name>albumInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a0dab9b4055e4bbb2fffff1ea49eb501e" kind="variable"><name>artistInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a3da026b851b747ed16b2af581572e144" kind="variable"><name>label13</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a67d95851d735847436ff169830f2c3d1" kind="variable"><name>label11</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a7b4b01eabb0b3b3c8aa1bc3420857986" kind="variable"><name>label12</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aa87ca34507895e034ad38dd4186fb1ce" kind="variable"><name>bpmLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a4e8b98ac640424bfa49e1c140e32800f" kind="variable"><name>label4</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ad059d1c8634efecef019a56e986993a4" kind="variable"><name>genreLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a7ffceb1385d0b31b29b4c3c376e83a16" kind="variable"><name>albumLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a57064db604bd94eca28d70a42d92355b" kind="variable"><name>artistLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ac4828c126cb08a10022c26f5eeba80bf" kind="variable"><name>yearLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aa317bbe6db95f18639295716ed358c89" kind="variable"><name>keyLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a1e1c6461026044f6400ba117ce794c22" kind="variable"><name>titleInf</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1af0305c4ff1b6111b09122f87701e751a" kind="variable"><name>titleLab</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a364f8f6fbc2b10c1bba113b817a4714e" kind="variable"><name>tableLayoutPanel1</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a7e306db2b03299b9a912c06c11094128" kind="variable"><name>artistLabel</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a3f55835aa38d92937c162071ac2712a1" kind="variable"><name>artistBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a717df56d7083f2fb1127973527321dc9" kind="variable"><name>filterButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aa089c8f246f4abcb51a7a69b3aecb79f" kind="variable"><name>keyBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ad84662a060ef4b4b0685e8fc12a7fff9" kind="variable"><name>Album</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ad31e6ff5a8b4876cf81a211669036f9c" kind="variable"><name>albumBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a0ba2785ffee182f9cdde2a2d8878999f" kind="variable"><name>titleLabel</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a2e03144d89cbb4e9d644cbae894a5f86" kind="variable"><name>genreLabel</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a72ed9600a708366f1ac886996465ab3f" kind="variable"><name>titleBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1afb1de8c120b39bcd01d755a428d207e6" kind="variable"><name>keyLabel</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a80b263aa0628fe0cf14d28c52ca898b9" kind="variable"><name>genreBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a92c7e5731331f817a5820eea1acd24c1" kind="variable"><name>tracksGrid</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a4c8a077b3c4cfba5f3f3f606c9757c68" kind="variable"><name>cartAddButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aadbb088e684645dc5848f0a320be51b2" kind="variable"><name>cartGrid</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a471cafe8d2b7fd799f3da2a335f78eb7" kind="variable"><name>cartCheckoutButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a2dd159498a0ff754b9fc49e2de159715" kind="variable"><name>cartDeleteButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a9ed16e33bbbbe0305f8e8cc2231de64a" kind="variable"><name>myContentPage</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a0114edbbbc8d2271a99b25a7c25760d7" kind="variable"><name>trackAddButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1af5369773e80253e9b4cb0df9b111afc7" kind="variable"><name>albumAddButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a8480486baecb9643e112240550fd0873" kind="variable"><name>myTracksGrid</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a47cdfdfdda7325ce49d4656b12e5a8f5" kind="variable"><name>tableLayoutPanel3</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a868a07262e16e088e6358b1981eca89a" kind="variable"><name>fillButton</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a0e4eefda1a1ccc7a88c4b568fbdb23e0" kind="variable"><name>fillBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a7188d37a0a3b16fb3bba728bbc7c503e" kind="variable"><name>label5</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1af8357e47c5adf1b4def03c2ef99ecb23" kind="property"><name>Runscriptfrm</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ab0a7fd425cfbe4d9ed5351dbe0f0899a" kind="function"><name>MainFrame</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a8a32f6966fd90df24a85fadcea8ec7d1" kind="function"><name>loginLabel_LinkClicked</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aaf0481f5c8f99cb447fc232ca5a698c1" kind="function"><name>setViewByUserType</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a919bb15a5b669920816a76924a5634c6" kind="function"><name>setInfoLabels</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ab9e2975a8e69eef23679870fe908d373" kind="function"><name>setArtworkBox</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1abae54e26316c3b6bc34b8357a1a9ab96" kind="function"><name>fillTracksGrid</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1acc8e07546941922d03f9832980fd63fc" kind="function"><name>SetTabHeader</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a43297cd765af392713fc137ed258ca5e" kind="function"><name>tracksControl_DrawItem</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a53fb77e9abbb78ab1b6592eb34130c76" kind="function"><name>MainFrame_MouseDown</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a3d67bdc5e2a1e667447c8dbe83b1c57e" kind="function"><name>MainFrame_MouseMove</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a9de2394624dc0bbaef3344f883a9d3bd" kind="function"><name>MainFrame_MouseUp</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a237af2056fa3f64ba15c4a7c230adae9" kind="function"><name>CloseButton_Click</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a319258e3cf9ecc7bfbe4e3f52ec18bfa" kind="function"><name>proCheckBox_CheckedChanged</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a9add34baacab9e64927acebc4a0f06f1" kind="function"><name>regButton_Click</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aeea0b6263a45451b86d48b2b65f23407" kind="function"><name>publisherCheckBox_CheckedChanged</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a9858b6cc18802cf79ccec0d249d9c0bf" kind="function"><name>fillMyTracksGrid</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1af22bb1f6f0b45c864ac0e042d896bad8" kind="function"><name>filterButton_Click</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a04b9097368f5a755475e3bf41bcd56a6" kind="function"><name>tracksGrid_SelectionChanged</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a787f441f2d53c8519d501a707f8599a9" kind="function"><name>tracksGrid_Play</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a719f656cb3e39fd0040264ba8b87d46e" kind="function"><name>cartGrid_Play</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a45461d25ee1c7796164ad894f0a31801" kind="function"><name>cartAddButton_Click</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ab562b85aba85144c146e1849ad3ee27f" kind="function"><name>trackAddButton_Click</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ad7cf0d78b4bc4280950eff967bf7658d" kind="function"><name>albumAddButton_Click</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ae524c9ccb4a31cebb3fe20c392cdd5ba" kind="function"><name>cartCheckoutButton_Click</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a6ca5af013f1c42bfcf73dcacf209d042" kind="function"><name>withdrawButton_Click</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1abca20279d665f0ed3ca5642af416f3cd" kind="function"><name>fillButton_Click</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ac986defea0d5c0bd88b14169c8181f5d" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a19b733c5f22dd6d4cb036dac48d4f7c4" kind="function"><name>fillTracksGrid</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a69c3e2aad49be3bd75af72af3f78b9e9" kind="function"><name>fillCartGrid</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1affabedc6da75c9159c1bfc9553290d27" kind="function"><name>fillCartGrid</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1ad73cf535fd290b0adb456268c8acafb1" kind="function"><name>setGuestViewOptions</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a7ecfa63c115e8fbd59d4e5f18ee0870d" kind="function"><name>setUserandPass</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1aa81d6faa968fc7e2099fa98b1bc9c419" kind="function"><name>fillUserTracksGrid</name></member>
+    <member refid="class_tune_store_1_1_main_frame_1a6b8d40a788e25cf9904991e9b386746c" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_program" kind="class"><name>TuneStore::Program</name>
+    <member refid="class_tune_store_1_1_program_1a122ff0d9469f8d98073a786617ccc24b" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_properties_1_1_resources" kind="class"><name>TuneStore::Properties::Resources</name>
+    <member refid="class_tune_store_1_1_properties_1_1_resources_1a049ca91bd1309fb3c8dc7532bd0bfe88" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_tune_store_1_1_properties_1_1_resources_1a4495d6cf36ad80eda5a9371b09b9fa8c" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_tune_store_1_1_properties_1_1_resources_1aa456d3622e2b244c01674ba60fed65d1" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_tune_store_1_1_properties_1_1_resources_1adfbf7c753b20459090a0c66ae8920274" kind="property"><name>Culture</name></member>
+    <member refid="class_tune_store_1_1_properties_1_1_resources_1ac4c9be18c6412a9d00b24d5218a6d2b1" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_runscriptfrm" kind="class"><name>TuneStore::Runscriptfrm</name>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a6fc3d439dc0036eb6629a918fcad61ef" kind="variable"><name>scriptFile</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1acfe9fe03ae1f0b85cd521ec2355de827" kind="variable"><name>components</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a2a165da7918f57fdf9d650fa25d3b085" kind="variable"><name>consoleBox</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a3824fb4e090d07051cd26ccf7f2a45bd" kind="variable"><name>startButton</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a47a4ac82d6a74378c954256e4a0809fe" kind="variable"><name>doneBut</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a53d0598ba61d3e36545dfd1a0bfde79d" kind="variable"><name>label1</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a53bce5130008c605ee1384f80c2f89d2" kind="variable"><name>errorBox</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a7bf8cd3cd68a9648e94e3918bc0cf4f3" kind="variable"><name>errLabel</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a8a5c24209522b82788714f4716c7c546" kind="function"><name>Runscriptfrm</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a01ccdc7b82b398663cf1ca252133c794" kind="function"><name>Runscriptfrm_Load</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a91d89a10770329bf66839d38b7785c3e" kind="function"><name>startButton_Click</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1aaa3fd9e0fa3e07ac24eabc01246b8b6b" kind="function"><name>errorOutputHandler</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1afb14b2f28f47159c68751738e2dde1fa" kind="function"><name>consoleOutputHandler</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a9815ba7bf84eb26b9057d85d51c6172d" kind="function"><name>doneBut_Click</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a2b02afbd5a51402a0b191c2a80111a4d" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_tune_store_1_1_runscriptfrm_1a6ddba7aa56bf04fba48a4239a78831dc" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_properties_1_1_settings" kind="class"><name>TuneStore::Properties::Settings</name>
+    <member refid="class_tune_store_1_1_properties_1_1_settings_1ae179e720d923b90f8b2ab207b651e453" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_tune_store_1_1_properties_1_1_settings_1a34dd10256d16a6d38aaf1f7eb2021932" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_model_1_1_tracks" kind="class"><name>TuneStore::Model::Tracks</name>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1a586205c33d2a517731405bedb3d0ad41" kind="variable"><name>userID</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1ac5ca23ca4329b7a9f060d6307275e052" kind="function"><name>Tracks</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1ab86f9768aa3f019fde99e3545c1fc5b2" kind="function"><name>getDataTable</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1a99770d353dc98772b4d24a7eaf90c831" kind="function"><name>getFilterString</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1a853dec2aba371bec77a9fb2bc84e1c3a" kind="function"><name>getTrackInfo</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1a7451799c8aed2e60eff01a8f9f504f61" kind="function"><name>fillPictureBox</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1a0869cfa0237d54acb4f19b804ab5252b" kind="function"><name>getTrackPath</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1ab4d48321c3a87713b85e636730ada2bf" kind="function"><name>addToCart</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1ad8ec8a1c7c3035600ab942eb274b9490" kind="function"><name>checkoutCart</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1af7179979f6a5fe5c8c96e3c3060ede64" kind="function"><name>getCart</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_tracks_1a728f324a524b8759a0130e8f3928c424" kind="function"><name>getUserTracks</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_controller_1_1_tracks_controller" kind="class"><name>TuneStore::Controller::TracksController</name>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a8fcf74a33b472aaf6258e36dbab038db" kind="variable"><name>userId</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a586f14126f46518976f7b3fa26f6fbcb" kind="variable"><name>myViewFrame</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1aeebbfe28c35ad2f567be8262ea777dfd" kind="variable"><name>myUserController</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a1f39e6e91198d553f7fb2aecb2635c1b" kind="variable"><name>myTracks</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1aeefb43f2ed0910ff16b03c2668550ec3" kind="function"><name>TracksController</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a8587b9e398be88b4692deda971f8b17b" kind="function"><name>setFilters</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a9340b96f68e303c1dfb23cc2a5f131bb" kind="function"><name>setInfoLabels</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1accdc73f403ea306174bfc21b4bd51504" kind="function"><name>setArtworkbox</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a864826016ae4e397466466d2fcc524ed" kind="function"><name>getTrackPath</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1ace07ee5e3fc59c168528f0298d44a63e" kind="function"><name>setUserId</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1a11b19f08397d55f5b99e92f34662a590" kind="function"><name>addToCart</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1ae14a349463e0192e1df6f95500526958" kind="function"><name>fillCartGrid</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1ad58ff2e6fdbd73f0b11db7b206cb2ff0" kind="function"><name>fillMyTracksGrid</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_tracks_controller_1adf1b6b99819b178776dadb63a766cf24" kind="function"><name>checkoutCart</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_model_1_1_user" kind="class"><name>TuneStore::Model::User</name>
+    <member refid="class_tune_store_1_1_model_1_1_user_1a123ef03d0c579697ed6be60d6dfb9e8a" kind="variable"><name>userID</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_user_1a3b6d61ac0f8fb592fa2ba08755e3f449" kind="variable"><name>err</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_user_1a1fe1df691a5d73e5cd002f95493507c6" kind="function"><name>User</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_user_1a20b4b1fd62760b59ac9a12f6b023e048" kind="function"><name>registerUser</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_user_1a0db9a3ddeb515551426e5a7ada9e3206" kind="function"><name>getUsertype</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_user_1a9b490e59938afb76d3e8b189da6fe292" kind="function"><name>isAlreadyregistered</name></member>
+    <member refid="class_tune_store_1_1_model_1_1_user_1abba933e5386b1dd27e7c194b94261182" kind="function"><name>fillwithdraw</name></member>
+  </compound>
+  <compound refid="class_tune_store_1_1_controller_1_1_user_controller" kind="class"><name>TuneStore::Controller::UserController</name>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a263d3795d1d1811d154d9dc4c29194bd" kind="variable"><name>myUserLogin</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a54954b00f214e9a61ab915a72e52eb7d" kind="variable"><name>myViewFrame</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1aa08e4a0303b98f81f69413bff8812f96" kind="variable"><name>myUser</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1aedacc5c50043fe95376b9fbe548f1179" kind="function"><name>UserController</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1aef029b55fd2db0e17720b06655bc34a1" kind="function"><name>login</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1afa03d496d2db85b6da0017e9bb7a3b17" kind="function"><name>logout</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a6d842efdc09869eb99b577ed301e2bb2" kind="function"><name>getUserId</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a9c5b30bd94f0474fa16695e773fe9c8c" kind="function"><name>getUserInfromation</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1a40ce401bc8288f749ad2758a167821d2" kind="function"><name>registerUser</name></member>
+    <member refid="class_tune_store_1_1_controller_1_1_user_controller_1af40ee3e710e6080993d487eb03341bc2" kind="function"><name>fillwithdrawCredit</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_sql_client" kind="namespace"><name>System::Data::SqlClient</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography" kind="namespace"><name>System::Security::Cryptography</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="namespace_tune_store" kind="namespace"><name>TuneStore</name>
+  </compound>
+  <compound refid="namespace_tune_store_1_1_controller" kind="namespace"><name>TuneStore::Controller</name>
+  </compound>
+  <compound refid="namespace_tune_store_1_1_model" kind="namespace"><name>TuneStore::Model</name>
+  </compound>
+  <compound refid="namespace_tune_store_1_1_properties" kind="namespace"><name>TuneStore::Properties</name>
+  </compound>
+  <compound refid="_tracks_controller_8cs" kind="file"><name>TracksController.cs</name>
+  </compound>
+  <compound refid="_user_controller_8cs" kind="file"><name>UserController.cs</name>
+  </compound>
+  <compound refid="_d_a_l_8cs" kind="file"><name>DAL.cs</name>
+  </compound>
+  <compound refid="_login_8cs" kind="file"><name>Login.cs</name>
+  </compound>
+  <compound refid="_tracks_8cs" kind="file"><name>Tracks.cs</name>
+  </compound>
+  <compound refid="_user_8cs" kind="file"><name>User.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="_runscriptfrm_8cs" kind="file"><name>Runscriptfrm.cs</name>
+  </compound>
+  <compound refid="_runscriptfrm_8_designer_8cs" kind="file"><name>Runscriptfrm.Designer.cs</name>
+  </compound>
+  <compound refid="_tune_store_8cs" kind="file"><name>TuneStore.cs</name>
+  </compound>
+  <compound refid="_tune_store_8_designer_8cs" kind="file"><name>TuneStore.Designer.cs</name>
+  </compound>
+  <compound refid="dir_f26ab7d7a70c6e536f11457530bb8a08" kind="dir"><name>TuneStore/Controller</name>
+  </compound>
+  <compound refid="dir_1f0af4a1e550fb5edfa693846af873d2" kind="dir"><name>TuneStore/obj/Debug</name>
+  </compound>
+  <compound refid="dir_1cb2c8c9097d95adab08c7a084531a17" kind="dir"><name>TuneStore/Model</name>
+  </compound>
+  <compound refid="dir_7ceaab6afe0f9f5dd85e341143e30dce" kind="dir"><name>TuneStore/obj</name>
+  </compound>
+  <compound refid="dir_248d6731b58497ba30e5b9f172b04e6d" kind="dir"><name>TuneStore/Properties</name>
+  </compound>
+  <compound refid="dir_c56cc7781bf7199bc686fe8555c4b443" kind="dir"><name>TuneStore</name>
+  </compound>
+</doxygenindex>

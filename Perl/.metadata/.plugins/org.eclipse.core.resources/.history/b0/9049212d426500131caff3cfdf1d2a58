@@ -1,0 +1,47 @@
+ 
+ #!/usr/bin/perl
+
+# PERL MODULES WE WILL BE USING
+use DBI;
+use Insert;
+
+ $string="dbi:ODBC:dsn=project;Database=projecttest;Trusted_Connection=Yes";
+ my $mssql_dbh = DBI -> connect($string) or die "\n\nthe mssql connection died with the following error: \n\n$DBI::errstr\n\n";
+ print "Database connection OK!\n";
+
+if (-d $ARGV[0]) {
+    # directory $ARGV[0] exists
+    print "Processing directory: ".$ARGV[0]."\n";
+    
+}
+elsif (-e $ARGV[0]) {
+    # $ARGV[0] exists but is not a directory
+    
+    
+}
+else {
+   die "Wrong parameter!!";
+}
+
+=pod
+my $myquery = "Update cikkek SET cim='D divizioban a Juventus' where cim='C divizioban a Juventus'";
+ #$sql = "select * from samples";
+$sth = $mssql_dbh->prepare($myquery);
+
+$sth->execute
+ or die "SQL Error: $DBI::errstr\n";
+ my $myquery = "SELECT * FROM cikkek";
+ 
+ $sth = $mssql_dbh->prepare($myquery);
+
+$sth->execute
+ or die "SQL Error: $DBI::errstr\n";
+ 
+  while (@row = $sth->fetchrow_array) {
+ print "@row\n";
+ } 
+ print"\n";
+  print $ARGV[0];
+    print $ARGV[1];
+=cut
+   

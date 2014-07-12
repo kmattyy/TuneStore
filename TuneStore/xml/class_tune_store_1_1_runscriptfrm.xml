@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_tune_store_1_1_runscriptfrm" kind="class" prot="public">
+    <compoundname>TuneStore::Runscriptfrm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tune_store_1_1_runscriptfrm_1a6fc3d439dc0036eb6629a918fcad61ef" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TuneStore.Runscriptfrm.scriptFile</definition>
+        <argsstring></argsstring>
+        <name>scriptFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" line="22" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_runscriptfrm_1acfe9fe03ae1f0b85cd521ec2355de827" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer TuneStore.Runscriptfrm.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" line="8" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_runscriptfrm_1a2a165da7918f57fdf9d650fa25d3b085" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.RichTextBox</type>
+        <definition>System.Windows.Forms.RichTextBox TuneStore.Runscriptfrm.consoleBox</definition>
+        <argsstring></argsstring>
+        <name>consoleBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" line="117" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_runscriptfrm_1a3824fb4e090d07051cd26ccf7f2a45bd" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.Runscriptfrm.startButton</definition>
+        <argsstring></argsstring>
+        <name>startButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" line="118" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_runscriptfrm_1a47a4ac82d6a74378c954256e4a0809fe" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TuneStore.Runscriptfrm.doneBut</definition>
+        <argsstring></argsstring>
+        <name>doneBut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" line="119" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_runscriptfrm_1a53d0598ba61d3e36545dfd1a0bfde79d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.Runscriptfrm.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" line="120" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_runscriptfrm_1a53bce5130008c605ee1384f80c2f89d2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.RichTextBox</type>
+        <definition>System.Windows.Forms.RichTextBox TuneStore.Runscriptfrm.errorBox</definition>
+        <argsstring></argsstring>
+        <name>errorBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" line="121" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_runscriptfrm_1a7bf8cd3cd68a9648e94e3918bc0cf4f3" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TuneStore.Runscriptfrm.errLabel</definition>
+        <argsstring></argsstring>
+        <name>errLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" line="122" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tune_store_1_1_runscriptfrm_1a8a5c24209522b82788714f4716c7c546" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TuneStore.Runscriptfrm.Runscriptfrm</definition>
+        <argsstring>(string script)</argsstring>
+        <name>Runscriptfrm</name>
+        <param>
+          <type>string</type>
+          <declname>script</declname>
+        </param>
+        <briefdescription>
+<para>Constructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>script</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String to script path</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" line="28" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tune_store_1_1_runscriptfrm_1a01ccdc7b82b398663cf1ca252133c794" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Runscriptfrm.Runscriptfrm_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Runscriptfrm_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Form load </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" line="43" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_runscriptfrm_1a91d89a10770329bf66839d38b7785c3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Runscriptfrm.startButton_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>startButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Start action </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" line="53" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" bodystart="53" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_runscriptfrm_1aaa3fd9e0fa3e07ac24eabc01246b8b6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Runscriptfrm.errorOutputHandler</definition>
+        <argsstring>(object sender, DataReceivedEventArgs outLine)</argsstring>
+        <name>errorOutputHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DataReceivedEventArgs</type>
+          <declname>outLine</declname>
+        </param>
+        <briefdescription>
+<para>Writing error output </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outLine</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" line="122" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" bodystart="122" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_runscriptfrm_1afb14b2f28f47159c68751738e2dde1fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Runscriptfrm.consoleOutputHandler</definition>
+        <argsstring>(object sender, DataReceivedEventArgs outLine)</argsstring>
+        <name>consoleOutputHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DataReceivedEventArgs</type>
+          <declname>outLine</declname>
+        </param>
+        <briefdescription>
+<para>Writing console output </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outLine</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" line="138" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" bodystart="138" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_runscriptfrm_1a9815ba7bf84eb26b9057d85d51c6172d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Runscriptfrm.doneBut_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>doneBut_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Close form </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" line="154" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tune_store_1_1_runscriptfrm_1a2b02afbd5a51402a0b191c2a80111a4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TuneStore.Runscriptfrm.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" line="29" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" bodystart="29" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tune_store_1_1_runscriptfrm_1a6ddba7aa56bf04fba48a4239a78831dc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TuneStore.Runscriptfrm.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" line="14" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A form for running a given script, shows the console and the error output. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>Form</label>
+      </node>
+      <node id="17">
+        <label>TuneStore.Runscriptfrm</label>
+        <link refid="class_tune_store_1_1_runscriptfrm"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="20">
+        <label>Form</label>
+      </node>
+      <node id="19">
+        <label>TuneStore.Runscriptfrm</label>
+        <link refid="class_tune_store_1_1_runscriptfrm"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" line="19" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Runscriptfrm.cs" bodystart="18" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_tune_store_1_1_runscriptfrm_1acfe9fe03ae1f0b85cd521ec2355de827" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>components</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a2a165da7918f57fdf9d650fa25d3b085" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>consoleBox</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1afb14b2f28f47159c68751738e2dde1fa" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>consoleOutputHandler</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a6ddba7aa56bf04fba48a4239a78831dc" prot="protected" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>Dispose</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a47a4ac82d6a74378c954256e4a0809fe" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>doneBut</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a9815ba7bf84eb26b9057d85d51c6172d" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>doneBut_Click</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a7bf8cd3cd68a9648e94e3918bc0cf4f3" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>errLabel</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a53bce5130008c605ee1384f80c2f89d2" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>errorBox</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1aaa3fd9e0fa3e07ac24eabc01246b8b6b" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>errorOutputHandler</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a2b02afbd5a51402a0b191c2a80111a4d" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>InitializeComponent</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a53d0598ba61d3e36545dfd1a0bfde79d" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>label1</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a8a5c24209522b82788714f4716c7c546" prot="public" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>Runscriptfrm</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a01ccdc7b82b398663cf1ca252133c794" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>Runscriptfrm_Load</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a6fc3d439dc0036eb6629a918fcad61ef" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>scriptFile</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a3824fb4e090d07051cd26ccf7f2a45bd" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>startButton</name></member>
+      <member refid="class_tune_store_1_1_runscriptfrm_1a91d89a10770329bf66839d38b7785c3e" prot="private" virt="non-virtual"><scope>TuneStore::Runscriptfrm</scope><name>startButton_Click</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

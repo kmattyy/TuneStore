@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_tune_store" kind="namespace">
+    <compoundname>TuneStore</compoundname>
+    <innerclass refid="class_tune_store_1_1_main_frame" prot="public">TuneStore::MainFrame</innerclass>
+    <innerclass refid="class_tune_store_1_1_program" prot="public">TuneStore::Program</innerclass>
+    <innerclass refid="class_tune_store_1_1_runscriptfrm" prot="public">TuneStore::Runscriptfrm</innerclass>
+    <innernamespace refid="namespace_tune_store_1_1_controller">TuneStore::Controller</innernamespace>
+    <innernamespace refid="namespace_tune_store_1_1_model">TuneStore::Model</innernamespace>
+    <innernamespace refid="namespace_tune_store_1_1_properties">TuneStore::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

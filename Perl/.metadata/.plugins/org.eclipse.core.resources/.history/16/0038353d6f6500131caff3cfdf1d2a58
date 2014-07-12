@@ -1,0 +1,48 @@
+package Insert;
+
+use DBI;
+use strict;
+use warnings;
+use MP3::Tag;
+
+#our $string="dbi:ODBC:dsn=project;Database=projecttest;Trusted_Connection=Yes";
+
+our $mssql_dbh;
+
+ #= DBI -> connect($string) or die "\n\nthe mssql connection died with the following error: \n\n$DBI::errstr\n\n";
+#print "Success!!";
+
+sub new{
+	
+   my($class, %args) = @_;
+ 
+   my $self = bless({}, $class);
+ 
+   my $db = exists $args{dbconnection} or die "\n No dbconnection!";
+   $mssql_dbh =$args{dbconnection};
+   #print $mssql_dbh."\n";
+   #print"Insert obj OK!\n";
+   return $self;	
+}
+
+
+sub InsertTrack {
+	 my $self=shift;
+    my $file= shift;
+    print $file;
+
+}
+
+sub InsertArtist{
+	 my $myquery = "Insert into artists(name,birthdate) values('Zsoltika',GETDATE())";
+my $sth = $mssql_dbh->prepare($myquery);
+
+$sth->execute
+ or die "SQL Error: $DBI::errstr\n";
+ 
+ return $sth;
+}
+
+
+
+return 1;

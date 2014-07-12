@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_c56cc7781bf7199bc686fe8555c4b443" kind="dir">
+    <compoundname>TuneStore</compoundname>
+    <innerdir refid="dir_f26ab7d7a70c6e536f11457530bb8a08">TuneStore/Controller</innerdir>
+    <innerdir refid="dir_1cb2c8c9097d95adab08c7a084531a17">TuneStore/Model</innerdir>
+    <innerdir refid="dir_7ceaab6afe0f9f5dd85e341143e30dce">TuneStore/obj</innerdir>
+    <innerdir refid="dir_248d6731b58497ba30e5b9f172b04e6d">TuneStore/Properties</innerdir>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_runscriptfrm_8cs">Runscriptfrm.cs</innerfile>
+    <innerfile refid="_runscriptfrm_8_designer_8cs">Runscriptfrm.Designer.cs</innerfile>
+    <innerfile refid="_tune_store_8cs">TuneStore.cs</innerfile>
+    <innerfile refid="_tune_store_8_designer_8cs">TuneStore.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/"/>
+  </compounddef>
+</doxygen>

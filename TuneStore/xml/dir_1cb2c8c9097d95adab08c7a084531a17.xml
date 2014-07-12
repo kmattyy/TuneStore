@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_1cb2c8c9097d95adab08c7a084531a17" kind="dir">
+    <compoundname>TuneStore/Model</compoundname>
+    <innerfile refid="_d_a_l_8cs">DAL.cs</innerfile>
+    <innerfile refid="_login_8cs">Login.cs</innerfile>
+    <innerfile refid="_tracks_8cs">Tracks.cs</innerfile>
+    <innerfile refid="_user_8cs">User.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/"/>
+  </compounddef>
+</doxygen>

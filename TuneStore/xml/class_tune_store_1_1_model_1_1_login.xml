@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_tune_store_1_1_model_1_1_login" kind="class" prot="public">
+    <compoundname>TuneStore::Model::Login</compoundname>
+    <basecompoundref refid="class_tune_store_1_1_model_1_1_d_a_l" prot="public" virt="non-virtual">TuneStore.Model.DAL</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tune_store_1_1_model_1_1_login_1aae18c7ab7670fa32ee078a0912fdd29e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TuneStore.Model.Login.userId</definition>
+        <argsstring></argsstring>
+        <name>userId</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" line="18" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_model_1_1_login_1aebed49f7f6e757d809ec19ff90b27a8d" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String TuneStore.Model.Login.group</definition>
+        <argsstring></argsstring>
+        <name>group</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" line="19" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_model_1_1_login_1a6cab707f0091ca10ed6e8493822d42f8" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String TuneStore.Model.Login.userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" line="20" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tune_store_1_1_model_1_1_login_1a3f9fb2ba7fda5853e9555673dc550c72" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TuneStore.Model.Login.loggedIn</definition>
+        <argsstring></argsstring>
+        <name>loggedIn</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" line="21" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tune_store_1_1_model_1_1_login_1a184a2123650754b3774309e52d535cc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TuneStore.Model.Login.Login</definition>
+        <argsstring>(string name, string pass)</argsstring>
+        <name>Login</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pass</declname>
+        </param>
+        <briefdescription>
+<para>Constructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Username</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Password</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" line="28" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" bodystart="28" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_tune_store_1_1_model_1_1_user" kindref="compound">User</ref> login on model layer </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>DAL</label>
+        <link refid="class_tune_store_1_1_model_1_1_d_a_l"/>
+      </node>
+      <node id="5">
+        <label>TuneStore.Model.Login</label>
+        <link refid="class_tune_store_1_1_model_1_1_login"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>DAL</label>
+        <link refid="class_tune_store_1_1_model_1_1_d_a_l"/>
+      </node>
+      <node id="7">
+        <label>TuneStore.Model.Login</label>
+        <link refid="class_tune_store_1_1_model_1_1_login"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" line="17" column="1" bodyfile="D:/Egyetem/AB2/TuneStore/TuneStore/TuneStore/Model/Login.cs" bodystart="16" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ab4b3fd9381bfd0261579678d4c4a5802" prot="package" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>CloseConnection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ac8f347f0d27aeadc61bc341276664290" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>CloseDataReader</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a10ca522dc93f490d832ef98c7770ed7b" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>Connected</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a185064dd52f541717750cd3de77b0ddd" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>ConnectionCreated</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ab31c1978d9d09f57793cf307807bc577" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>CreateConnection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a50bce22a6e2222ef51e1d79d1cb1da18" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>ExecuteNonQuery</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a084bc2866f85d34bdd6d4ece7f9472e3" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>ExecuteReader</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ad29e5842a6d4df190309dab55aaa6cb7" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>ExecuteScalar</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a2a16f122db8e86f86a8b21fffffec3ef" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>ExecuteStoredProcedureNonQuery</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a95b31c4a1c14fda499a962abf81df3c5" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>GetConnection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_login_1aebed49f7f6e757d809ec19ff90b27a8d" prot="public" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>group</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1ac7f3fcd580550051af6d55ad6f60b4d6" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>IsConnectCreated</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1afbed4e1710000cf02ff78502fc129e91" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>IsConnected</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_login_1a3f9fb2ba7fda5853e9555673dc550c72" prot="public" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>loggedIn</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_login_1a184a2123650754b3774309e52d535cc1" prot="public" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>Login</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1aae6028ff60c0a0103a096e870ce097d0" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>m_Command</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1af14bf3278fe3c80fa06b315ed5e93523" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>m_Connection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a4966b46d96f1ef56313015457f72e7ca" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>m_ConnectionString</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1abc0363548c4a5260b488da0180643388" prot="public" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>MD5Hash</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_d_a_l_1a95012ed2fb7e4242eb95199315a86eaf" prot="protected" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>OpenConnection</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_login_1aae18c7ab7670fa32ee078a0912fdd29e" prot="public" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>userId</name></member>
+      <member refid="class_tune_store_1_1_model_1_1_login_1a6cab707f0091ca10ed6e8493822d42f8" prot="public" virt="non-virtual"><scope>TuneStore::Model::Login</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

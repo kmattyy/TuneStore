@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.epic.debug.launchConfigurationPerl">
+<stringAttribute key="ATTR_PROGRAM_PARAMETERS" value="&quot;D:\Albums&quot;"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="Adatbazis"/>
+<stringAttribute key="ATTR_STARTUP_FILE" value="dbconnect.pl"/>
+</launchConfiguration>
